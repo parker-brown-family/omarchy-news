@@ -1,41 +1,48 @@
 {
- "id": "bug-bounty",
- "title": "A $100,000 bug bounty opens on HackerOne",
- "date": "2026-10-02",
- "summary": "The foundation funds $100,000 in bounties, and Mehmet İnce joins Core as head of security.",
- "topics": [
-  {
-   "id": "money",
-   "angle": "Money spent on being attacked on purpose."
-  },
-  {
-   "id": "ai",
-   "angle": "A check on fast-moving code."
-  }
- ],
- "claims": [
-  {
-   "text": "The program is funded with $100,000.",
-   "who": "the foundation",
-   "status": "read",
-   "sources": [
-    "news"
-   ]
-  }
- ],
- "sources": [
-  {
-   "id": "news",
-   "url": "https://omarchy.org/news/2026/10/omarchy-launches-bug-bounty-program-on-hackerone/",
-   "publisher": "Omarchy News",
-   "kind": "primary",
-   "published": "2026-10-02",
-   "read": "2026-11-23"
-  }
- ],
- "to_find": [
-  "The public HackerOne page",
-  "Reports paid so far"
- ],
- "would_change": "Published results."
+  "id": "bug-bounty",
+  "title": "A $100,000 bug bounty opens on HackerOne",
+  "date": "2026-10-02",
+  "summary": "The foundation funds $100,000 in bounties, and Mehmet İnce joins Core as head of security.",
+  "topics": [
+    {
+      "id": "money",
+      "angle": "Money spent on being attacked on purpose."
+    },
+    {
+      "id": "ai",
+      "angle": "A check on fast-moving code."
+    }
+  ],
+  "claims": [
+    {
+      "text": "The program is funded with $100,000.",
+      "who": "the foundation",
+      "status": "read",
+      "sources": [
+        "news"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "news",
+      "url": "https://omarchy.org/news/2026/10/omarchy-launches-bug-bounty-program-on-hackerone/",
+      "publisher": "Omarchy News",
+      "kind": "primary",
+      "published": "2026-10-02",
+      "read": "2026-11-23"
+    }
+  ],
+  "to_find": [],
+  "found": [
+    {
+      "item": "The public HackerOne page",
+      "status": "not findable"
+    },
+    {
+      "item": "Reports paid so far",
+      "status": "not findable"
+    }
+  ],
+  "would_change": "Published results."
 }
