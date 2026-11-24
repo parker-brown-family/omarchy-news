@@ -53,6 +53,14 @@
    "sources": [
     "report"
    ]
+  },
+  {
+   "text": "Under the GPL, whoever releases a modified version to the public must make its source code available to its users, under the GPL.",
+   "who": "GNU’s GPL FAQ",
+   "status": "read",
+   "sources": [
+    "gpl"
+   ]
   }
  ],
  "sources": [
@@ -86,6 +94,14 @@
    "publisher": "Hacker News",
    "kind": "report",
    "published": "2026-11-07",
+   "read": "2026-11-23"
+  },
+  {
+   "id": "gpl",
+   "url": "https://www.gnu.org/licenses/gpl-faq.html#GPLRequireSourcePostedPublic",
+   "publisher": "GNU Project",
+   "kind": "primary",
+   "published": null,
    "read": "2026-11-23"
   }
  ],

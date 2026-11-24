@@ -49,6 +49,14 @@
    "sources": [
     "dhh"
    ]
+  },
+  {
+   "text": "The change hides Claude Code and Codex, among others, and keeps Kimi, Qwen Code and DeepSeek Harness.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "change"
+   ]
   }
  ],
  "sources": [

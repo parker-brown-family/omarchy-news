@@ -29,6 +29,14 @@
    "sources": [
     "flow"
    ]
+  },
+  {
+   "text": "The panel’s memory bar shows what each running model holds and whether the next one fits.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "panel"
+   ]
   }
  ],
  "sources": [

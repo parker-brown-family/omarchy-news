@@ -35,6 +35,14 @@
    "who": "our note",
    "status": "open",
    "sources": []
+  },
+  {
+   "text": "marcan founded Asahi Linux.",
+   "who": "Asahi",
+   "status": "read",
+   "sources": [
+    "about"
+   ]
   }
  ],
  "sources": [
@@ -61,6 +69,14 @@
    "kind": "primary",
    "published": null,
    "read": null
+  },
+  {
+   "id": "about",
+   "url": "https://asahilinux.org/about/",
+   "publisher": "Asahi Linux",
+   "kind": "primary",
+   "published": null,
+   "read": "2026-11-23"
   }
  ],
  "to_find": [

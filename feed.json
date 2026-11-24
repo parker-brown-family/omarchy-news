@@ -302,6 +302,14 @@
       "who": "our note",
       "status": "open",
       "sources": []
+     },
+     {
+      "text": "marcan founded Asahi Linux.",
+      "who": "Asahi",
+      "status": "read",
+      "sources": [
+       "about"
+      ]
      }
     ],
     "sources": [
@@ -328,6 +336,14 @@
       "kind": "primary",
       "published": null,
       "read": null
+     },
+     {
+      "id": "about",
+      "url": "https://asahilinux.org/about/",
+      "publisher": "Asahi Linux",
+      "kind": "primary",
+      "published": null,
+      "read": "2026-11-23"
      }
     ],
     "to_find": [
@@ -397,6 +413,14 @@
       "status": "said",
       "sources": [
        "dhh"
+      ]
+     },
+     {
+      "text": "The change hides Claude Code and Codex, among others, and keeps Kimi, Qwen Code and DeepSeek Harness.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "change"
       ]
      }
     ],
@@ -473,6 +497,14 @@
       "sources": [
        "flow"
       ]
+     },
+     {
+      "text": "The panel’s memory bar shows what each running model holds and whether the next one fits.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "panel"
+      ]
      }
     ],
     "sources": [
@@ -527,6 +559,14 @@
     "claims": [
      {
       "text": "An iPad 5 boots Omarchy A from iOS without a computer.",
+      "who": "Berkay Kosebay",
+      "status": "said",
+      "sources": [
+       "post"
+      ]
+     },
+     {
+      "text": "The iPad was jailbroken with Dopamine 3.0.",
       "who": "Berkay Kosebay",
       "status": "said",
       "sources": [
@@ -903,6 +943,14 @@
       "text": "The sponsorship gives hardware and tokens to everyone working on Aurora.",
       "who": "the foundation",
       "status": "read",
+      "sources": [
+       "news"
+      ]
+     },
+     {
+      "text": "Omarchy is Aurora’s flagship distribution.",
+      "who": "DHH",
+      "status": "said",
       "sources": [
        "news"
       ]
@@ -1322,6 +1370,14 @@
       "sources": [
        "report"
       ]
+     },
+     {
+      "text": "Under the GPL, whoever releases a modified version to the public must make its source code available to its users, under the GPL.",
+      "who": "GNU’s GPL FAQ",
+      "status": "read",
+      "sources": [
+       "gpl"
+      ]
      }
     ],
     "sources": [
@@ -1355,6 +1411,14 @@
       "publisher": "Hacker News",
       "kind": "report",
       "published": "2026-11-07",
+      "read": "2026-11-23"
+     },
+     {
+      "id": "gpl",
+      "url": "https://www.gnu.org/licenses/gpl-faq.html#GPLRequireSourcePostedPublic",
+      "publisher": "GNU Project",
+      "kind": "primary",
+      "published": null,
       "read": "2026-11-23"
      }
     ],
