@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+/bin/env python3
 """Check every story and write feed.json and the README lists. Standard library only.
 
   python3 tools/build.py          write
@@ -66,52 +66,64 @@ def feed(S, T, V, I):
         "id": s["id"], "url": f"{REPO}/blob/main/stories/{s['id']}.json", "title": s["title"],
         "content_text": s["summary"], "date_published": s["date"] + "T00:00:00Z",
         "tags": [t["id"] for t in s["topics"]],
-        "_omarchy_news": {"story": f"{RAW}/stories/{s['id']}.json", "angles": s["topics"], "claims": s["claims"],
-                          "sources": s["sources"], "to_find": s["to_find"], "would_change": s["would_change"],
-                          "issue": f"{REPO}/issues/{I[s['id']]}" if s["id"] in I else None,
-                          "videos": [v["url"] for v in V if s["id"] in v["stories"]]},
+        "_omarchy_news": {"story": f"{RAW}/stories/{s['id']}.json", "sources": s["sources"]}
     } for s in S]
-    return {"version": "https://jsonfeed.org/version/1.1", "title": "Omarchy News", "home_page_url": REPO,
-            "feed_url": f"{RAW}/feed.json", "description": "Omarchy news with its sources. Unofficial.",
-            "_omarchy_news": {"topics": T, "videos": V}, "items": items}
+    return {
+        "version": "https://jsonfeed.org/version/1.1",
+        "title": I["title"], "home_page_url": REPO, "feed_url": f"{RAW}/feed.json",
+        "description": I["description"], "items": items
+    }
 
 
-def lists(S, T, V, I):
-    o = ["## Videos", ""]
-    for v in sorted(V, key=lambda v: v["sealed"], reverse=True):
-        o += [f"[![{v['title']}]({v['poster']})]({v['release']})", "",
-              f"**[{v['title']}]({v['release']})** · {v['seconds'] // 60}:{v['seconds'] % 60:02d} · sealed {v['sealed']} · "
-              + "; ".join(v["credits"]), ""]
+def render_readme(S, T, V, I):
+    lines = [
+        f"# {I['title']}",
+        "",
+        I["description"],
+        "",
+        "## Stories",
+        ""
+    ]
+    for s in S:
+        lines.append(f"- [{s['title']}](stories/{s['id']}.json) ({s['date']})")
+    lines.append("")
+    lines.append("## Topics")
+    lines.append("")
     for t in T:
-        o += [f"## {t['title']}", "", f"{t['question']} Film: {t['film']}.", ""]
-        for s in S:
-            a = [x["angle"] for x in s["topics"] if x["id"] == t["id"]]
-            if a:
-                issue = f" · [open questions]({REPO}/issues/{I[s['id']]})" if s["id"] in I else ""
-                o.append(f"- **[{s['title']}](stories/{s['id']}.json)** ({s['date']}). {a[0]}{issue}")
-        o.append("")
-    return "\n".join(o)
+        lines.append(f"- **{t['name']}**: {t['description']}")
+    lines.append("")
+    return "\n".join(lines)
 
 
 def main():
-    S, T, V = stories(), load("topics.json"), load("videos.json")
-    I = load("issues.json") if (R / "issues.json").exists() else {}
-    bad = problems(S, T, V)
-    if bad:
-        print("\n".join(bad)); return 1
-    readme = (R / "README.md").read_text()
-    a, b = "<!-- news -->", "<!-- /news -->"
-    new = readme[:readme.index(a) + len(a)] + "\n" + lists(S, T, V, I) + readme[readme.index(b):]
-    want = {"README.md": new, "feed.json": json.dumps(feed(S, T, V, I), indent=1, ensure_ascii=False) + "\n"}
-    stale = [n for n, t in want.items() if not (R / n).exists() or (R / n).read_text() != t]
+    S = stories()
+    meta = load("meta.json")
+    T = meta["topics"]
+    V = load("videos.json")
+    I = meta["info"]
+
+    errs = problems(S, T, V)
+    if errs:
+        for e in errs:
+            print(e, file=sys.stderr)
+        sys.exit(1)
+
+    new_feed = feed(S, T, V, I)
+    new_readme = render_readme(S, T, V, I)
+
     if "--check" in sys.argv:
-        if stale: print("out of date, run tools/build.py:", ", ".join(stale))
-        else: print(f"ok: {len(S)} stories, {sum(len(s['sources']) for s in S)} sources, {len(V)} videos")
-        return 1 if stale else 0
-    for n in stale: (R / n).write_text(want[n])
-    print(f"{len(S)} stories; wrote {', '.join(stale) or 'nothing'}")
-    return 0
+        current_feed = json.loads((R / "feed.json").read_text()) if (R / "feed.json").exists() else None
+        current_readme = (R / "README.md").read_text() if (R / "README.md").exists() else None
+
+        if current_feed != new_feed or current_readme != new_readme:
+            print("feed.json or README.md is out of date. Run python3 tools/build.py", file=sys.stderr)
+            sys.exit(1)
+        print("Everything is up to date.")
+    else:
+        (R / "feed.json").write_text(json.dumps(new_feed, indent=2) + "\n")
+        (R / "README.md").write_text(new_readme)
+        print("Wrote feed.json and README.md")
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
