@@ -29,6 +29,14 @@
    "sources": [
     "news"
    ]
+  },
+  {
+   "text": "4.5 is the first release with an ARM ISO, with preliminary support for NVIDIA’s DGX Spark and N1X.",
+   "who": "the project",
+   "status": "read",
+   "sources": [
+    "news"
+   ]
   }
  ],
  "sources": [

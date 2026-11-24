@@ -390,6 +390,14 @@
       "sources": [
        "change"
       ]
+     },
+     {
+      "text": "The installer is fully translated, the edition has local CDNs, and Jade Horse is its default theme.",
+      "who": "DHH",
+      "status": "said",
+      "sources": [
+       "dhh"
+      ]
      }
     ],
     "sources": [
@@ -866,6 +874,38 @@
       "sources": [
        "dhh"
       ]
+     },
+     {
+      "text": "Aurora is independent: its maintainers set its technical direction, and it lives in their own repositories.",
+      "who": "DHH",
+      "status": "said",
+      "sources": [
+       "news"
+      ]
+     },
+     {
+      "text": "M4, M5 and M6 are all being worked on.",
+      "who": "DHH",
+      "status": "said",
+      "sources": [
+       "news"
+      ]
+     },
+     {
+      "text": "Fedora, Arch and NixOS setups are coming too.",
+      "who": "DHH",
+      "status": "said",
+      "sources": [
+       "news"
+      ]
+     },
+     {
+      "text": "The sponsorship gives hardware and tokens to everyone working on Aurora.",
+      "who": "the foundation",
+      "status": "read",
+      "sources": [
+       "news"
+      ]
      }
     ],
     "sources": [
@@ -948,6 +988,14 @@
       "status": "read",
       "sources": [
        "icons"
+      ]
+     },
+     {
+      "text": "The change to the preinstalled games was posted as coming soon.",
+      "who": "the project",
+      "status": "said",
+      "sources": [
+       "games"
       ]
      }
     ],
@@ -1105,6 +1153,14 @@
       "sources": [
        "n1x"
       ]
+     },
+     {
+      "text": "The installer screen in the photo reads: Installed Omarchy in 0m 18s.",
+      "who": "the photo in DHH’s post",
+      "status": "read",
+      "sources": [
+       "n1x"
+      ]
      }
     ],
     "sources": [
@@ -1258,6 +1314,14 @@
       "sources": [
        "itsfoss"
       ]
+     },
+     {
+      "text": "The report says the MIT licence explicitly allows this and has no protection against bad faith.",
+      "who": "Asahi",
+      "status": "said",
+      "sources": [
+       "report"
+      ]
      }
     ],
     "sources": [
@@ -1308,7 +1372,7 @@
    "id": "bluechip-snapdragon",
    "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/bluechip-snapdragon.json",
    "title": "Omarchy runs on Anduril’s BlueChip",
-   "content_text": "The project says its Snapdragon work has Omarchy running on the BlueChip.",
+   "content_text": "DHH says the project’s Snapdragon work has Omarchy running on the BlueChip.",
    "date_published": "2026-11-06T00:00:00Z",
    "tags": [
     "next"
@@ -1324,7 +1388,7 @@
     "claims": [
      {
       "text": "Omarchy is up and running on the BlueChip.",
-      "who": "the project",
+      "who": "DHH",
       "status": "said",
       "sources": [
        "post"
@@ -1334,8 +1398,8 @@
     "sources": [
      {
       "id": "post",
-      "url": "https://x.com/omarchy/status/2118764469270802447",
-      "publisher": "Omarchy on X",
+      "url": "https://x.com/dhh/status/2118764469270802447",
+      "publisher": "DHH on X",
       "kind": "primary",
       "published": "2026-11-06",
       "read": "2026-11-23"
@@ -1377,6 +1441,14 @@
       "text": "Sixteen people worked on Omarchy M.",
       "who": "the foundation",
       "status": "read",
+      "sources": [
+       "news"
+      ]
+     },
+     {
+      "text": "The Mac installer went from team announcement to download in two months.",
+      "who": "DHH",
+      "status": "said",
       "sources": [
        "news"
       ]
@@ -1435,6 +1507,14 @@
       "text": "Over 740 pull requests were merged from more than 180 contributors.",
       "who": "the project",
       "status": "said",
+      "sources": [
+       "news"
+      ]
+     },
+     {
+      "text": "4.5 is the first release with an ARM ISO, with preliminary support for NVIDIA’s DGX Spark and N1X.",
+      "who": "the project",
+      "status": "read",
       "sources": [
        "news"
       ]

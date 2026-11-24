@@ -2,7 +2,7 @@
  "id": "bluechip-snapdragon",
  "title": "Omarchy runs on Anduril’s BlueChip",
  "date": "2026-11-06",
- "summary": "The project says its Snapdragon work has Omarchy running on the BlueChip.",
+ "summary": "DHH says the project’s Snapdragon work has Omarchy running on the BlueChip.",
  "topics": [
   {
    "id": "next",
@@ -12,7 +12,7 @@
  "claims": [
   {
    "text": "Omarchy is up and running on the BlueChip.",
-   "who": "the project",
+   "who": "DHH",
    "status": "said",
    "sources": [
     "post"
@@ -22,8 +22,8 @@
  "sources": [
   {
    "id": "post",
-   "url": "https://x.com/omarchy/status/2118764469270802447",
-   "publisher": "Omarchy on X",
+   "url": "https://x.com/dhh/status/2118764469270802447",
+   "publisher": "DHH on X",
    "kind": "primary",
    "published": "2026-11-06",
    "read": "2026-11-23"

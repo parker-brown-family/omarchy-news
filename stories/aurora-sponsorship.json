@@ -41,6 +41,38 @@
    "sources": [
     "dhh"
    ]
+  },
+  {
+   "text": "Aurora is independent: its maintainers set its technical direction, and it lives in their own repositories.",
+   "who": "DHH",
+   "status": "said",
+   "sources": [
+    "news"
+   ]
+  },
+  {
+   "text": "M4, M5 and M6 are all being worked on.",
+   "who": "DHH",
+   "status": "said",
+   "sources": [
+    "news"
+   ]
+  },
+  {
+   "text": "Fedora, Arch and NixOS setups are coming too.",
+   "who": "DHH",
+   "status": "said",
+   "sources": [
+    "news"
+   ]
+  },
+  {
+   "text": "The sponsorship gives hardware and tokens to everyone working on Aurora.",
+   "who": "the foundation",
+   "status": "read",
+   "sources": [
+    "news"
+   ]
   }
  ],
  "sources": [

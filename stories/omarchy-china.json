@@ -41,6 +41,14 @@
    "sources": [
     "change"
    ]
+  },
+  {
+   "text": "The installer is fully translated, the edition has local CDNs, and Jade Horse is its default theme.",
+   "who": "DHH",
+   "status": "said",
+   "sources": [
+    "dhh"
+   ]
   }
  ],
  "sources": [
