@@ -22,5 +22,11 @@
   "title": "Omarchy Everywhere",
   "question": "Where does Omarchy run next?",
   "film": "held for the 4.6 release"
+ },
+ {
+  "id": "peek",
+  "title": "Peek Behind the Curtain",
+  "question": "What is being built in Omarchy this week?",
+  "film": "weekly, on Wednesdays"
  }
 ]

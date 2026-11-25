@@ -1,0 +1,81 @@
+{
+ "id": "icon-sets-and-local-music",
+ "title": "Icon sets, and music made on your own machine",
+ "date": "2026-11-21",
+ "summary": "App icons became sets you pick from pictures, and two new apps make images and music with local models.",
+ "topics": [
+  {
+   "id": "next",
+   "angle": "How the desktop looks and sounds next."
+  },
+  {
+   "id": "peek",
+   "angle": "Pick your icons. Make a tune."
+  }
+ ],
+ "claims": [
+  {
+   "text": "App icons are now a set you pick from pictures, apart from the theme.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "sets",
+    "pick"
+   ]
+  },
+  {
+   "text": "Flowtunes makes the tunes it plays on your machine, and can have the model write lyrics.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "sing"
+   ]
+  },
+  {
+   "text": "Fantasi can change an image by starting the next one from it.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "change"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "sets",
+   "url": "https://github.com/omacom/omarchy/pull/18879",
+   "publisher": "Omarchy on GitHub",
+   "kind": "code",
+   "published": "2026-11-15",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "pick",
+   "url": "https://github.com/omacom/omarchy/pull/18976",
+   "publisher": "Omarchy on GitHub",
+   "kind": "code",
+   "published": "2026-11-15",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "sing",
+   "url": "https://github.com/omacom/flowtunes/commit/4cfb39c6f",
+   "publisher": "Flowtunes on GitHub",
+   "kind": "code",
+   "published": "2026-11-20",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "change",
+   "url": "https://github.com/omacom/fantasi/commit/da6de6a39",
+   "publisher": "Fantasi on GitHub",
+   "kind": "code",
+   "published": "2026-11-18",
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "What hardware makes a tune at listening speed"
+ ],
+ "would_change": "The release notes."
+}

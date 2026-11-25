@@ -1,8 +1,8 @@
 {
  "id": "local-ai",
- "title": "Local models get their own panel",
- "date": "2026-11-21",
- "summary": "A merged change gives local models a panel built around memory, and Flowtunes makes music on the machine.",
+ "title": "Correction: the local models panel lasted two days",
+ "date": "2026-11-23",
+ "summary": "A panel for local models merged on 21 November and was removed on 23 November. Our film Omarchy Everywhere, posted on the 24th, still described it.",
  "topics": [
   {
    "id": "ai",
@@ -10,16 +10,45 @@
   },
   {
    "id": "next",
-   "angle": "Headed for a coming release."
+   "angle": "Where local models went instead."
+  },
+  {
+   "id": "peek",
+   "angle": "Our correction: merged is not shipped."
   }
  ],
  "claims": [
   {
-   "text": "Local models get their own bar icon and panel.",
+   "text": "The panel for local models merged on 21 November and was removed on 23 November.",
    "who": "the code",
    "status": "read",
    "sources": [
-    "panel"
+    "panel",
+    "gone"
+   ]
+  },
+  {
+   "text": "Coding models are now managed in the agents panel.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "gone"
+   ]
+  },
+  {
+   "text": "Image, video and music models belong to Fantasi and Flowtunes.",
+   "who": "the change’s author, DHH",
+   "status": "said",
+   "sources": [
+    "gone"
+   ]
+  },
+  {
+   "text": "Our film Omarchy Everywhere, posted on 24 November, described the panel after it was gone.",
+   "who": "our reading",
+   "status": "read",
+   "sources": [
+    "gone"
    ]
   },
   {
@@ -31,11 +60,27 @@
    ]
   },
   {
-   "text": "The panel’s memory bar shows what each running model holds and whether the next one fits.",
-   "who": "the code",
-   "status": "read",
+   "text": "Of the 1,496 lines the panel’s change added outside tests, 278 were still in the code on 25 November, 19 percent.",
+   "who": "our count",
+   "status": "counted",
    "sources": [
     "panel"
+   ]
+  },
+  {
+   "text": "Every change named in Peek Behind the Curtain had 71 percent or more of its lines left on 25 November.",
+   "who": "our count",
+   "status": "counted",
+   "sources": [
+    "count"
+   ]
+  },
+  {
+   "text": "Since 25 November, a program in omarchy-news reads every change a Peek Behind the Curtain film names again, at that day’s code, before the film is made.",
+   "who": "this repository",
+   "status": "read",
+   "sources": [
+    "count"
    ]
   }
  ],
@@ -55,6 +100,22 @@
    "kind": "primary",
    "published": "2026-11-20",
    "read": "2026-11-23"
+  },
+  {
+   "id": "gone",
+   "url": "https://github.com/omacom/omarchy/pull/19829",
+   "publisher": "Omarchy on GitHub",
+   "kind": "code",
+   "published": "2026-11-23",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "count",
+   "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/peek/editions/1.json",
+   "publisher": "Omarchy News on GitHub",
+   "kind": "code",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
   }
  ],
  "to_find": [

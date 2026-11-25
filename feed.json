@@ -29,6 +29,12 @@
     "title": "Omarchy Everywhere",
     "question": "Where does Omarchy run next?",
     "film": "held for the 4.6 release"
+   },
+   {
+    "id": "peek",
+    "title": "Peek Behind the Curtain",
+    "question": "What is being built in Omarchy this week?",
+    "film": "weekly, on Wednesdays"
    }
   ],
   "videos": [
@@ -86,6 +92,376 @@
  },
  "items": [
   {
+   "id": "omamobile",
+   "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/omamobile.json",
+   "title": "Omamobile: Omarchy on a Pixel phone, and not an official project",
+   "content_text": "An independent project’s fourth release runs Omarchy on a Pixel 7 Pro with no Android underneath. It is a developer preview.",
+   "date_published": "2026-11-25T00:00:00Z",
+   "tags": [
+    "next",
+    "peek"
+   ],
+   "_omarchy_news": {
+    "story": "https://raw.githubusercontent.com/parker-brown-family/omarchy-news/main/stories/omamobile.json",
+    "angles": [
+     {
+      "id": "next",
+      "angle": "A phone is one of the places."
+     },
+     {
+      "id": "peek",
+      "angle": "The phone people are building in the open."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Omamobile is an independent community project, not an official Omarchy project.",
+      "who": "the project",
+      "status": "read",
+      "sources": [
+       "notes"
+      ]
+     },
+     {
+      "text": "It was renamed because Omarchy’s author asked that it not be called Omarchy Mobile.",
+      "who": "the project",
+      "status": "said",
+      "sources": [
+       "notes"
+      ]
+     },
+     {
+      "text": "The release of 24 November is a developer preview for one phone, the Pixel 7 Pro.",
+      "who": "the project",
+      "status": "read",
+      "sources": [
+       "notes"
+      ]
+     },
+     {
+      "text": "It runs Omarchy’s own packages on a mainline Linux kernel, with no Android underneath.",
+      "who": "the project",
+      "status": "said",
+      "sources": [
+       "notes"
+      ]
+     },
+     {
+      "text": "Calls, texts and mobile data work on the one network tested so far.",
+      "who": "the project",
+      "status": "said",
+      "sources": [
+       "notes"
+      ]
+     },
+     {
+      "text": "Installing erases the phone’s data.",
+      "who": "the project",
+      "status": "said",
+      "sources": [
+       "notes"
+      ]
+     },
+     {
+      "text": "Voice typing runs on the phone, and what you say stays there.",
+      "who": "the change’s author, Derek Ross",
+      "status": "said",
+      "sources": [
+       "voice"
+      ]
+     },
+     {
+      "text": "The app drawer follows your finger up, and home pages settle in at most 250 milliseconds.",
+      "who": "the change’s author, Derek Ross",
+      "status": "said",
+      "sources": [
+       "drawer"
+      ]
+     },
+     {
+      "text": "Other phones are being brought up in the same repository, more Pixels and two OnePlus phones among them.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "devices"
+      ]
+     },
+     {
+      "text": "GitHub lists Derek Ross and W4HO-ham as its two largest contributors; W4HO-ham’s recent work is the Pixel 9a.",
+      "who": "our count",
+      "status": "counted",
+      "sources": [
+       "people",
+       "devices"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "notes",
+      "url": "https://github.com/derekross/omamobile/blob/main/docs/release-notes/2026.11.24.md",
+      "publisher": "Omamobile on GitHub",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "voice",
+      "url": "https://github.com/derekross/omamobile/pull/241",
+      "publisher": "Omamobile on GitHub",
+      "kind": "code",
+      "published": "2026-10-31",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "drawer",
+      "url": "https://github.com/derekross/omamobile/pull/237",
+      "publisher": "Omamobile on GitHub",
+      "kind": "code",
+      "published": "2026-10-31",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "devices",
+      "url": "https://github.com/derekross/omamobile/blob/main/docs/DEVICES.md",
+      "publisher": "Omamobile on GitHub",
+      "kind": "code",
+      "published": "2026-11-24",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "people",
+      "url": "https://github.com/derekross/omamobile/graphs/contributors",
+      "publisher": "Omamobile on GitHub",
+      "kind": "code",
+      "published": null,
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "A second network tested",
+     "Someone using it as their only phone"
+    ],
+    "would_change": "A release for a second phone.",
+    "issue": "https://github.com/parker-brown-family/omarchy-news/issues/38",
+    "videos": []
+   }
+  },
+  {
+   "id": "install-speed",
+   "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/install-speed.json",
+   "title": "The install race: 18 seconds, six, then 4.79",
+   "content_text": "DHH posts an install under five seconds, with encryption on. The code says what the clock counts and where the time went.",
+   "date_published": "2026-11-24T00:00:00Z",
+   "tags": [
+    "next",
+    "peek"
+   ],
+   "_omarchy_news": {
+    "story": "https://raw.githubusercontent.com/parker-brown-family/omarchy-news/main/stories/install-speed.json",
+    "angles": [
+     {
+      "id": "next",
+      "angle": "Speed as a headline."
+     },
+     {
+      "id": "peek",
+      "angle": "The seconds, and the code that removed them."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Six seconds on a Ryzen 7 9800X3D with 32 GB of memory.",
+      "who": "DHH",
+      "status": "said",
+      "sources": [
+       "six"
+      ]
+     },
+     {
+      "text": "Eighteen seconds on the N1X.",
+      "who": "DHH",
+      "status": "said",
+      "sources": [
+       "n1x"
+      ]
+     },
+     {
+      "text": "The installer screen in the photo reads: Installed Omarchy in 0m 18s.",
+      "who": "the photo in DHH’s post",
+      "status": "read",
+      "sources": [
+       "n1x"
+      ]
+     },
+     {
+      "text": "Omarchy can install in less than five seconds on an AMD 495 machine that Anush Elangovan gave DHH.",
+      "who": "DHH",
+      "status": "said",
+      "sources": [
+       "five"
+      ]
+     },
+     {
+      "text": "The installer screen in the photo reads: Installed Omarchy in 4.79s.",
+      "who": "the photo in DHH’s post",
+      "status": "read",
+      "sources": [
+       "five"
+      ]
+     },
+     {
+      "text": "The sub-five-second install had encryption on.",
+      "who": "DHH",
+      "status": "said",
+      "sources": [
+       "enc"
+      ]
+     },
+     {
+      "text": "The clock starts when the installer begins its first step, after the questions, and stops after its last, the factory snapshot.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "clock",
+       "steps"
+      ]
+     },
+     {
+      "text": "Starting from the stick, answering the questions and the restart are not on the clock.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "clock",
+       "steps"
+      ]
+     },
+     {
+      "text": "Preparing the machine’s package keys was 3.72 seconds of a 9.27-second install on a Framework 13, so that work now starts before the disk is written.",
+      "who": "the change’s author, DHH",
+      "status": "said",
+      "sources": [
+       "keys"
+      ]
+     },
+     {
+      "text": "The slow step that protects the disk password now overlaps with the setup that follows the disk write.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "overlap"
+      ]
+     },
+     {
+      "text": "A first try that set the password’s cost earlier chose a password 20 to 35 percent cheaper to attack, so it was left out.",
+      "who": "the change’s author, DHH",
+      "status": "said",
+      "sources": [
+       "derive"
+      ]
+     },
+     {
+      "text": "The six-second run was posted by washinkoko.",
+      "who": "the post DHH quoted",
+      "status": "read",
+      "sources": [
+       "six"
+      ]
+     },
+     {
+      "text": "On that change, the project’s automatic install test took 15.7 seconds on x86, 4.3 less than before, and 23 seconds on ARM, 2.8 more.",
+      "who": "the test posted on the change",
+      "status": "read",
+      "sources": [
+       "keys"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "six",
+      "url": "https://x.com/dhh/status/2122286045773382096",
+      "publisher": "DHH on X",
+      "kind": "primary",
+      "published": "2026-11-16",
+      "read": "2026-11-23"
+     },
+     {
+      "id": "n1x",
+      "url": "https://x.com/dhh/status/2121986141280739691",
+      "publisher": "DHH on X",
+      "kind": "primary",
+      "published": "2026-11-15",
+      "read": "2026-11-23"
+     },
+     {
+      "id": "five",
+      "url": "https://x.com/dhh/status/2125329682841391410",
+      "publisher": "DHH on X",
+      "kind": "primary",
+      "published": "2026-11-24",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "enc",
+      "url": "https://x.com/dhh/status/2125472850660204602",
+      "publisher": "DHH on X",
+      "kind": "primary",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "clock",
+      "url": "https://github.com/omacom/omarchy-iso/blob/quattro/configs/airootfs/usr/share/omarchy-iso/orchestrator/phases.py",
+      "publisher": "Omarchy’s installer on GitHub",
+      "kind": "code",
+      "published": null,
+      "read": "2026-11-25"
+     },
+     {
+      "id": "steps",
+      "url": "https://github.com/omacom/omarchy-iso/blob/quattro/configs/airootfs/usr/share/omarchy-iso/orchestrator/main.py",
+      "publisher": "Omarchy’s installer on GitHub",
+      "kind": "code",
+      "published": null,
+      "read": "2026-11-25"
+     },
+     {
+      "id": "keys",
+      "url": "https://github.com/omacom/omarchy-iso/pull/515",
+      "publisher": "Omarchy’s installer on GitHub",
+      "kind": "code",
+      "published": "2026-11-24",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "overlap",
+      "url": "https://github.com/omacom/omarchy-iso/pull/511",
+      "publisher": "Omarchy’s installer on GitHub",
+      "kind": "code",
+      "published": "2026-11-23",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "derive",
+      "url": "https://github.com/omacom/omarchy-iso/pull/490",
+      "publisher": "Omarchy’s installer on GitHub",
+      "kind": "code",
+      "published": "2026-11-21",
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "A measurement by someone else of the 4.79-second build",
+     "Which release carries it",
+     "A source for how fast the hardware could go"
+    ],
+    "would_change": "An independent timing.",
+    "issue": "https://github.com/parker-brown-family/omarchy-news/issues/12",
+    "videos": []
+   }
+  },
+  {
    "id": "neon-boot-time",
    "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/neon-boot-time.json",
    "title": "DHH says Gemini 4 Neon halved Omarchy’s boot time",
@@ -93,7 +469,8 @@
    "date_published": "2026-11-23T00:00:00Z",
    "tags": [
     "ai",
-    "next"
+    "next",
+    "peek"
    ],
    "_omarchy_news": {
     "story": "https://raw.githubusercontent.com/parker-brown-family/omarchy-news/main/stories/neon-boot-time.json",
@@ -105,6 +482,10 @@
      {
       "id": "next",
       "angle": "Speed headed for a coming release."
+     },
+     {
+      "id": "peek",
+      "angle": "Who is credited, in the post and in the commits."
      }
     ],
     "claims": [
@@ -123,6 +504,24 @@
       "sources": [
        "dhh"
       ]
+     },
+     {
+      "text": "DHH credits Gemini 4 Neon with the optimizations behind the sub-five-second install.",
+      "who": "DHH",
+      "status": "said",
+      "sources": [
+       "five"
+      ]
+     },
+     {
+      "text": "Of three install changes we read, none credits Gemini 4 Neon and one credits Claude Fable 5.2. A commit need not name every tool used.",
+      "who": "our reading",
+      "status": "counted",
+      "sources": [
+       "a",
+       "b",
+       "d"
+      ]
      }
     ],
     "sources": [
@@ -133,6 +532,38 @@
       "kind": "primary",
       "published": "2026-11-23",
       "read": "2026-11-23"
+     },
+     {
+      "id": "five",
+      "url": "https://x.com/dhh/status/2125329682841391410",
+      "publisher": "DHH on X",
+      "kind": "primary",
+      "published": "2026-11-24",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "a",
+      "url": "https://github.com/omacom/omarchy-iso/pull/490",
+      "publisher": "Omarchy’s installer on GitHub",
+      "kind": "code",
+      "published": "2026-11-21",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "b",
+      "url": "https://github.com/omacom/omarchy-iso/pull/511",
+      "publisher": "Omarchy’s installer on GitHub",
+      "kind": "code",
+      "published": "2026-11-23",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "d",
+      "url": "https://github.com/omacom/omarchy-iso/pull/515",
+      "publisher": "Omarchy’s installer on GitHub",
+      "kind": "code",
+      "published": "2026-11-24",
+      "read": "2026-11-25"
      }
     ],
     "to_find": [
@@ -145,6 +576,143 @@
     "videos": [
      "https://github.com/parker-brown-family/omarchy-news/releases/download/film-who-gets-to-use-ai/omarchy-stories-omarchy-news-ai-curved-16x9.mp4"
     ]
+   }
+  },
+  {
+   "id": "local-ai",
+   "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/local-ai.json",
+   "title": "Correction: the local models panel lasted two days",
+   "content_text": "A panel for local models merged on 21 November and was removed on 23 November. Our film Omarchy Everywhere, posted on the 24th, still described it.",
+   "date_published": "2026-11-23T00:00:00Z",
+   "tags": [
+    "ai",
+    "next",
+    "peek"
+   ],
+   "_omarchy_news": {
+    "story": "https://raw.githubusercontent.com/parker-brown-family/omarchy-news/main/stories/local-ai.json",
+    "angles": [
+     {
+      "id": "ai",
+      "angle": "AI that runs on your own computer."
+     },
+     {
+      "id": "next",
+      "angle": "Where local models went instead."
+     },
+     {
+      "id": "peek",
+      "angle": "Our correction: merged is not shipped."
+     }
+    ],
+    "claims": [
+     {
+      "text": "The panel for local models merged on 21 November and was removed on 23 November.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "panel",
+       "gone"
+      ]
+     },
+     {
+      "text": "Coding models are now managed in the agents panel.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "gone"
+      ]
+     },
+     {
+      "text": "Image, video and music models belong to Fantasi and Flowtunes.",
+      "who": "the change’s author, DHH",
+      "status": "said",
+      "sources": [
+       "gone"
+      ]
+     },
+     {
+      "text": "Our film Omarchy Everywhere, posted on 24 November, described the panel after it was gone.",
+      "who": "our reading",
+      "status": "read",
+      "sources": [
+       "gone"
+      ]
+     },
+     {
+      "text": "Flowtunes generates music with ACE-Step 1.5 Turbo.",
+      "who": "the project",
+      "status": "said",
+      "sources": [
+       "flow"
+      ]
+     },
+     {
+      "text": "Of the 1,496 lines the panel’s change added outside tests, 278 were still in the code on 25 November, 19 percent.",
+      "who": "our count",
+      "status": "counted",
+      "sources": [
+       "panel"
+      ]
+     },
+     {
+      "text": "Every change named in Peek Behind the Curtain had 71 percent or more of its lines left on 25 November.",
+      "who": "our count",
+      "status": "counted",
+      "sources": [
+       "count"
+      ]
+     },
+     {
+      "text": "Since 25 November, a program in omarchy-news reads every change a Peek Behind the Curtain film names again, at that day’s code, before the film is made.",
+      "who": "this repository",
+      "status": "read",
+      "sources": [
+       "count"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "panel",
+      "url": "https://github.com/omacom/omarchy/pull/19597",
+      "publisher": "Omarchy on GitHub",
+      "kind": "code",
+      "published": "2026-11-21",
+      "read": "2026-11-23"
+     },
+     {
+      "id": "flow",
+      "url": "https://x.com/omarchy/status/2123857861851898283",
+      "publisher": "Omarchy on X",
+      "kind": "primary",
+      "published": "2026-11-20",
+      "read": "2026-11-23"
+     },
+     {
+      "id": "gone",
+      "url": "https://github.com/omacom/omarchy/pull/19829",
+      "publisher": "Omarchy on GitHub",
+      "kind": "code",
+      "published": "2026-11-23",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "count",
+      "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/peek/editions/1.json",
+      "publisher": "Omarchy News on GitHub",
+      "kind": "code",
+      "published": "2026-11-25",
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "Which release carries it",
+     "A run on a modest machine"
+    ],
+    "would_change": "The release notes.",
+    "issue": "https://github.com/parker-brown-family/omarchy-news/issues/20",
+    "videos": []
    }
   },
   {
@@ -460,77 +1028,101 @@
    }
   },
   {
-   "id": "local-ai",
-   "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/local-ai.json",
-   "title": "Local models get their own panel",
-   "content_text": "A merged change gives local models a panel built around memory, and Flowtunes makes music on the machine.",
-   "date_published": "2026-11-21T00:00:00Z",
+   "id": "mac-m4-m5",
+   "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/mac-m4-m5.json",
+   "title": "M4 and M5 Macs boot in developer builds",
+   "content_text": "A merged installer change gives newer Macs a boot path. It is held to edge images and the developer catalog.",
+   "date_published": "2026-11-22T00:00:00Z",
    "tags": [
-    "ai",
-    "next"
+    "mac",
+    "peek"
    ],
    "_omarchy_news": {
-    "story": "https://raw.githubusercontent.com/parker-brown-family/omarchy-news/main/stories/local-ai.json",
+    "story": "https://raw.githubusercontent.com/parker-brown-family/omarchy-news/main/stories/mac-m4-m5.json",
     "angles": [
      {
-      "id": "ai",
-      "angle": "AI that runs on your own computer."
+      "id": "mac",
+      "angle": "The newest Macs, and how far they have got."
      },
      {
-      "id": "next",
-      "angle": "Headed for a coming release."
+      "id": "peek",
+      "angle": "The Mac installer learns the M4."
      }
     ],
     "claims": [
      {
-      "text": "Local models get their own bar icon and panel.",
+      "text": "A merged change gives M4 and later Macs their own way to boot.",
       "who": "the code",
       "status": "read",
       "sources": [
-       "panel"
+       "pr"
       ]
      },
      {
-      "text": "Flowtunes generates music with ACE-Step 1.5 Turbo.",
-      "who": "the project",
+      "text": "On a test build, an M4 Pro MacBook Pro came up with all 14 cores, Wi-Fi, Touch ID, camera, speakers and an external display.",
+      "who": "the change’s author, Scott Jones",
       "status": "said",
       "sources": [
-       "flow"
+       "pr"
       ]
      },
      {
-      "text": "The panel’s memory bar shows what each running model holds and whether the next one fits.",
+      "text": "An M5 MacBook Air boots, from an earlier version of the work.",
+      "who": "the change’s author, Scott Jones",
+      "status": "said",
+      "sources": [
+       "pr"
+      ]
+     },
+     {
+      "text": "The change reaches edge images and the developer catalog only.",
+      "who": "the change’s author, Scott Jones",
+      "status": "said",
+      "sources": [
+       "pr"
+      ]
+     },
+     {
+      "text": "The exact build that was merged had not been installed on hardware when the change was written up.",
+      "who": "the change’s author, Scott Jones",
+      "status": "said",
+      "sources": [
+       "pr"
+      ]
+     },
+     {
+      "text": "The change was merged on 22 November by Marcelo Alcantara and written by Scott Jones.",
       "who": "the code",
       "status": "read",
       "sources": [
-       "panel"
+       "pr"
+      ]
+     },
+     {
+      "text": "When the change was written up, no catalog could offer an M4 for an ordinary install.",
+      "who": "the change’s author, Scott Jones",
+      "status": "said",
+      "sources": [
+       "pr"
       ]
      }
     ],
     "sources": [
      {
-      "id": "panel",
-      "url": "https://github.com/omacom/omarchy/pull/19597",
-      "publisher": "Omarchy on GitHub",
+      "id": "pr",
+      "url": "https://github.com/omacom/omarchy-mac-installer/pull/238",
+      "publisher": "Omarchy’s Mac installer on GitHub",
       "kind": "code",
-      "published": "2026-11-21",
-      "read": "2026-11-23"
-     },
-     {
-      "id": "flow",
-      "url": "https://x.com/omarchy/status/2123857861851898283",
-      "publisher": "Omarchy on X",
-      "kind": "primary",
-      "published": "2026-11-20",
-      "read": "2026-11-23"
+      "published": "2026-11-22",
+      "read": "2026-11-25"
      }
     ],
     "to_find": [
-     "Which release carries it",
-     "A run on a modest machine"
+     "A fresh install of the merged build on an M4",
+     "When stable will offer an M4"
     ],
-    "would_change": "The release notes.",
-    "issue": "https://github.com/parker-brown-family/omarchy-news/issues/20",
+    "would_change": "A catalog that offers an M4 to everyone.",
+    "issue": "https://github.com/parker-brown-family/omarchy-news/issues/37",
     "videos": []
    }
   },
@@ -598,6 +1190,97 @@
     ],
     "would_change": "A maintainer’s account.",
     "issue": "https://github.com/parker-brown-family/omarchy-news/issues/19",
+    "videos": []
+   }
+  },
+  {
+   "id": "icon-sets-and-local-music",
+   "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/icon-sets-and-local-music.json",
+   "title": "Icon sets, and music made on your own machine",
+   "content_text": "App icons became sets you pick from pictures, and two new apps make images and music with local models.",
+   "date_published": "2026-11-21T00:00:00Z",
+   "tags": [
+    "next",
+    "peek"
+   ],
+   "_omarchy_news": {
+    "story": "https://raw.githubusercontent.com/parker-brown-family/omarchy-news/main/stories/icon-sets-and-local-music.json",
+    "angles": [
+     {
+      "id": "next",
+      "angle": "How the desktop looks and sounds next."
+     },
+     {
+      "id": "peek",
+      "angle": "Pick your icons. Make a tune."
+     }
+    ],
+    "claims": [
+     {
+      "text": "App icons are now a set you pick from pictures, apart from the theme.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "sets",
+       "pick"
+      ]
+     },
+     {
+      "text": "Flowtunes makes the tunes it plays on your machine, and can have the model write lyrics.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "sing"
+      ]
+     },
+     {
+      "text": "Fantasi can change an image by starting the next one from it.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "change"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "sets",
+      "url": "https://github.com/omacom/omarchy/pull/18879",
+      "publisher": "Omarchy on GitHub",
+      "kind": "code",
+      "published": "2026-11-15",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "pick",
+      "url": "https://github.com/omacom/omarchy/pull/18976",
+      "publisher": "Omarchy on GitHub",
+      "kind": "code",
+      "published": "2026-11-15",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "sing",
+      "url": "https://github.com/omacom/flowtunes/commit/4cfb39c6f",
+      "publisher": "Flowtunes on GitHub",
+      "kind": "code",
+      "published": "2026-11-20",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "change",
+      "url": "https://github.com/omacom/fantasi/commit/da6de6a39",
+      "publisher": "Fantasi on GitHub",
+      "kind": "code",
+      "published": "2026-11-18",
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "What hardware makes a tune at listening speed"
+    ],
+    "would_change": "The release notes.",
+    "issue": "https://github.com/parker-brown-family/omarchy-news/issues/36",
     "videos": []
    }
   },
@@ -1091,6 +1774,121 @@
    }
   },
   {
+   "id": "game-vibes-cracktro",
+   "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/game-vibes-cracktro.json",
+   "title": "Game Vibes opens like a 16-bit demo",
+   "content_text": "The games list is now an old-school demo scene intro, and a shared game installs from its address.",
+   "date_published": "2026-11-19T00:00:00Z",
+   "tags": [
+    "next",
+    "peek"
+   ],
+   "_omarchy_news": {
+    "story": "https://raw.githubusercontent.com/parker-brown-family/omarchy-news/main/stories/game-vibes-cracktro.json",
+    "angles": [
+     {
+      "id": "next",
+      "angle": "Play as part of the system."
+     },
+     {
+      "id": "peek",
+      "angle": "The games list became a show."
+     }
+    ],
+    "claims": [
+     {
+      "text": "The list of games is now a 16-bit demo-scene intro on a CRT, in the theme’s colours.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "show"
+      ]
+     },
+     {
+      "text": "Fable 5.2 drew it.",
+      "who": "the change’s author, DHH",
+      "status": "said",
+      "sources": [
+       "show"
+      ]
+     },
+     {
+      "text": "Four games ship with it: Cards, Checkmate, Death Wish and Neon Swarm.",
+      "who": "our count in the code",
+      "status": "counted",
+      "sources": [
+       "tree"
+      ]
+     },
+     {
+      "text": "A game somebody shares installs from its git address, like a theme.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "share"
+      ]
+     },
+     {
+      "text": "Death Wish ships with a program that proves every room can be beaten.",
+      "who": "the change’s author, DHH",
+      "status": "said",
+      "sources": [
+       "death"
+      ]
+     },
+     {
+      "text": "No release is named for it.",
+      "who": "our reading",
+      "status": "read",
+      "sources": [
+       "show"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "show",
+      "url": "https://github.com/omacom/omarchy/pull/19367",
+      "publisher": "Omarchy on GitHub",
+      "kind": "code",
+      "published": "2026-11-19",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "share",
+      "url": "https://github.com/omacom/omarchy/pull/19422",
+      "publisher": "Omarchy on GitHub",
+      "kind": "code",
+      "published": "2026-11-19",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "death",
+      "url": "https://github.com/omacom/omarchy/pull/19366",
+      "publisher": "Omarchy on GitHub",
+      "kind": "code",
+      "published": "2026-11-19",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "tree",
+      "url": "https://github.com/omacom/omarchy/tree/quattro/default/games/vibes",
+      "publisher": "Omarchy on GitHub",
+      "kind": "code",
+      "published": null,
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "Which release carries it",
+     "A game somebody else shared this way"
+    ],
+    "would_change": "The release notes.",
+    "issue": "https://github.com/parker-brown-family/omarchy-news/issues/35",
+    "videos": []
+   }
+  },
+  {
    "id": "apple-computer-use-steps",
    "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/apple-computer-use-steps.json",
    "title": "Apple adds steps before another company’s agent can control a Mac",
@@ -1169,76 +1967,6 @@
    }
   },
   {
-   "id": "install-speed",
-   "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/install-speed.json",
-   "title": "Six-second installs, and 18 seconds on NVIDIA’s N1X",
-   "content_text": "DHH posts a six-second install record on a Ryzen 7 9800X3D and 18 seconds on an N1X.",
-   "date_published": "2026-11-16T00:00:00Z",
-   "tags": [
-    "next"
-   ],
-   "_omarchy_news": {
-    "story": "https://raw.githubusercontent.com/parker-brown-family/omarchy-news/main/stories/install-speed.json",
-    "angles": [
-     {
-      "id": "next",
-      "angle": "Speed as a headline."
-     }
-    ],
-    "claims": [
-     {
-      "text": "Six seconds on a Ryzen 7 9800X3D with 32 GB of memory.",
-      "who": "DHH",
-      "status": "said",
-      "sources": [
-       "six"
-      ]
-     },
-     {
-      "text": "Eighteen seconds on the N1X.",
-      "who": "DHH",
-      "status": "said",
-      "sources": [
-       "n1x"
-      ]
-     },
-     {
-      "text": "The installer screen in the photo reads: Installed Omarchy in 0m 18s.",
-      "who": "the photo in DHH’s post",
-      "status": "read",
-      "sources": [
-       "n1x"
-      ]
-     }
-    ],
-    "sources": [
-     {
-      "id": "six",
-      "url": "https://x.com/dhh/status/2122286045773382096",
-      "publisher": "DHH on X",
-      "kind": "primary",
-      "published": "2026-11-16",
-      "read": "2026-11-23"
-     },
-     {
-      "id": "n1x",
-      "url": "https://x.com/dhh/status/2121986141280739691",
-      "publisher": "DHH on X",
-      "kind": "primary",
-      "published": "2026-11-15",
-      "read": "2026-11-23"
-     }
-    ],
-    "to_find": [
-     "What the clock covers: start and stop",
-     "A measurement by someone else"
-    ],
-    "would_change": "An independent timing.",
-    "issue": "https://github.com/parker-brown-family/omarchy-news/issues/12",
-    "videos": []
-   }
-  },
-  {
    "id": "v4-migration-complaint",
    "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/v4-migration-complaint.json",
    "title": "A user says the v3 to v4 upgrade deleted their network setup",
@@ -1306,6 +2034,172 @@
     "videos": [
      "https://github.com/parker-brown-family/omarchy-news/releases/download/film-who-gets-to-use-ai/omarchy-stories-omarchy-news-ai-curved-16x9.mp4"
     ]
+   }
+  },
+  {
+   "id": "mac-m3-max",
+   "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/mac-m3-max.json",
+   "title": "M3 Max graphics are on by default in the kernel branch",
+   "content_text": "Two merged changes switch on the display and graphics of M3 Max MacBook Pros, at 120 Hz.",
+   "date_published": "2026-11-10T00:00:00Z",
+   "tags": [
+    "mac",
+    "peek"
+   ],
+   "_omarchy_news": {
+    "story": "https://raw.githubusercontent.com/parker-brown-family/omarchy-news/main/stories/mac-m3-max.json",
+    "angles": [
+     {
+      "id": "mac",
+      "angle": "One more chip with its graphics on."
+     },
+     {
+      "id": "peek",
+      "angle": "The M3 Max, and a longer sleep."
+     }
+    ],
+    "claims": [
+     {
+      "text": "The 16-inch M3 Max has its built-in display and graphics on by default, at 120 hertz.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "j516"
+      ]
+     },
+     {
+      "text": "The 14-inch model with the same chip got the same days earlier.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "j514"
+      ]
+     },
+     {
+      "text": "On that 16-inch Mac, external displays stay off for now.",
+      "who": "the change’s author, Scott Jones",
+      "status": "said",
+      "sources": [
+       "j516"
+      ]
+     },
+     {
+      "text": "Asleep, an M3 Pro went from about 2.6 watts to about 1.4.",
+      "who": "the change’s author, Eryk Wieliczko",
+      "status": "said",
+      "sources": [
+       "sleep"
+      ]
+     },
+     {
+      "text": "Daniel Lemky’s commits are the base of the 16-inch work, and Chris Kearney’s of the 14-inch work.",
+      "who": "the changes’ descriptions",
+      "status": "read",
+      "sources": [
+       "j516",
+       "j514"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "j516",
+      "url": "https://github.com/omacom/linux-aurora/pull/429",
+      "publisher": "Omarchy’s Mac kernel on GitHub",
+      "kind": "code",
+      "published": "2026-11-10",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "j514",
+      "url": "https://github.com/omacom/linux-aurora/pull/408",
+      "publisher": "Omarchy’s Mac kernel on GitHub",
+      "kind": "code",
+      "published": "2026-11-07",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "sleep",
+      "url": "https://github.com/omacom/linux-aurora/pull/274",
+      "publisher": "Omarchy’s Mac kernel on GitHub",
+      "kind": "code",
+      "published": "2026-10-30",
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "Which published kernel carries each",
+     "Someone using a 16-inch M3 Max day to day"
+    ],
+    "would_change": "A report of either Mac failing on the published kernel.",
+    "issue": "https://github.com/parker-brown-family/omarchy-news/issues/34",
+    "videos": []
+   }
+  },
+  {
+   "id": "flux-second-screen",
+   "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/flux-second-screen.json",
+   "title": "Flux turns an Android phone or tablet into a second monitor",
+   "content_text": "An independent project by Bjarne Øverli connects an Omarchy computer to a phone. A merged change adds a second screen you can touch.",
+   "date_published": "2026-11-09T00:00:00Z",
+   "tags": [
+    "next",
+    "peek"
+   ],
+   "_omarchy_news": {
+    "story": "https://raw.githubusercontent.com/parker-brown-family/omarchy-news/main/stories/flux-second-screen.json",
+    "angles": [
+     {
+      "id": "next",
+      "angle": "The phone you already have."
+     },
+     {
+      "id": "peek",
+      "angle": "The phone as a second screen."
+     }
+    ],
+    "claims": [
+     {
+      "text": "Flux, an independent project, can use an Android phone or tablet as a second monitor, with touch.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "pr"
+      ]
+     },
+     {
+      "text": "It can also play the computer’s sound on the phone.",
+      "who": "the code",
+      "status": "read",
+      "sources": [
+       "sound"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "pr",
+      "url": "https://github.com/bjarneo/flux/commit/644a578fa",
+      "publisher": "Flux on GitHub",
+      "kind": "code",
+      "published": "2026-11-09",
+      "read": "2026-11-25"
+     },
+     {
+      "id": "sound",
+      "url": "https://github.com/bjarneo/flux/commit/c1fa0dc21",
+      "publisher": "Flux on GitHub",
+      "kind": "code",
+      "published": "2026-11-09",
+      "read": "2026-11-25"
+     }
+    ],
+    "to_find": [
+     "The delay between the computer and the phone, measured"
+    ],
+    "would_change": "A measurement of the delay.",
+    "issue": "https://github.com/parker-brown-family/omarchy-news/issues/33",
+    "videos": []
    }
   },
   {

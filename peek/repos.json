@@ -1,0 +1,16 @@
+[
+ {"repo": "omacom/omarchy", "lane": "desktop", "run_by": "the Omarchy project"},
+ {"repo": "omacom/omarchy-iso", "lane": "install", "run_by": "the Omarchy project"},
+ {"repo": "omacom/folio", "lane": "apps", "run_by": "the Omarchy project"},
+ {"repo": "omacom/omaview", "lane": "apps", "run_by": "the Omarchy project"},
+ {"repo": "omacom/owe", "lane": "desktop", "run_by": "the Omarchy project"},
+ {"repo": "omacom/omarchy-local-ai", "lane": "local-ai", "run_by": "the Omarchy project"},
+ {"repo": "omacom/fantasi", "lane": "local-ai", "run_by": "the Omarchy project"},
+ {"repo": "omacom/flowtunes", "lane": "local-ai", "run_by": "the Omarchy project"},
+ {"repo": "omacom/omarchy-mac-installer", "lane": "mac", "run_by": "the Omarchy project"},
+ {"repo": "omacom/linux-aurora", "lane": "mac", "run_by": "the Omarchy project"},
+ {"repo": "omacom/m1n1", "lane": "mac", "run_by": "the Omarchy project"},
+ {"repo": "omacom/try-omarchy", "lane": "mac", "run_by": "the Omarchy project"},
+ {"repo": "derekross/omamobile", "lane": "mobile", "run_by": "an independent community project"},
+ {"repo": "bjarneo/flux", "lane": "mobile", "run_by": "an independent project"}
+]

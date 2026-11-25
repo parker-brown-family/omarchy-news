@@ -1,0 +1,429 @@
+{
+ "edition": 1,
+ "read_on": "2026-11-25",
+ "least_share": 0.6,
+ "items": [
+  {
+   "says": "keys start before the disk write",
+   "repo": "omacom/omarchy-iso",
+   "pr": 515,
+   "sha": "8e2935a5aea4d5d0f7cfe2d41a9fcd8633a8cc99",
+   "url": "https://github.com/omacom/omarchy-iso/pull/515",
+   "who": "David Heinemeier Hansson",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "dead6c413f4b",
+    "in_default_branch": true,
+    "lines": {
+     "added": 110,
+     "still": 99,
+     "share": 0.9,
+     "files": 2,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "the password step overlaps setup",
+   "repo": "omacom/omarchy-iso",
+   "pr": 511,
+   "sha": "4245c754dddc3d61bbc06306307666aac2838fe3",
+   "url": "https://github.com/omacom/omarchy-iso/pull/511",
+   "who": "David Heinemeier Hansson",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "dead6c413f4b",
+    "in_default_branch": true,
+    "lines": {
+     "added": 276,
+     "still": 270,
+     "share": 0.978,
+     "files": 6,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "the second key derivation is skipped",
+   "repo": "omacom/omarchy-iso",
+   "pr": 490,
+   "sha": "aa287ecc69739ec61c7a54d1b1662d32dd19ea34",
+   "url": "https://github.com/omacom/omarchy-iso/pull/490",
+   "who": "David Heinemeier Hansson",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "dead6c413f4b",
+    "in_default_branch": true,
+    "lines": {
+     "added": 68,
+     "still": 67,
+     "share": 0.985,
+     "files": 3,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "M4 and later Macs boot",
+   "repo": "omacom/omarchy-mac-installer",
+   "pr": 238,
+   "sha": "82a950c0e9196a660cb659a1a40f0971a65785c0",
+   "url": "https://github.com/omacom/omarchy-mac-installer/pull/238",
+   "who": "Marcelo Alcantara",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "e0aa53fdf4fc",
+    "in_default_branch": true,
+    "lines": {
+     "added": 1857,
+     "still": 1857,
+     "share": 1.0,
+     "files": 39,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "16-inch M3 Max graphics",
+   "repo": "omacom/linux-aurora",
+   "pr": 429,
+   "sha": "ad8a583cc3fc03078dbe45d319cae303797ea986",
+   "url": "https://github.com/omacom/linux-aurora/pull/429",
+   "who": "Marcelo Alcantara",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "0428c9ac66e1",
+    "in_default_branch": true,
+    "lines": {
+     "added": 206,
+     "still": 206,
+     "share": 1.0,
+     "files": 17,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "14-inch M3 Max graphics",
+   "repo": "omacom/linux-aurora",
+   "pr": 408,
+   "sha": "8eddf5aeb6acfb07ec3ca7bdcb62170685493b28",
+   "url": "https://github.com/omacom/linux-aurora/pull/408",
+   "who": "Marcelo Alcantara",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "0428c9ac66e1",
+    "in_default_branch": true,
+    "lines": {
+     "added": 604,
+     "still": 593,
+     "share": 0.982,
+     "files": 28,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "M3 Pro sleep",
+   "repo": "omacom/linux-aurora",
+   "pr": 274,
+   "sha": "ba46b626e4c4434b69d0d8a73cf6a0a8a475a98f",
+   "url": "https://github.com/omacom/linux-aurora/pull/274",
+   "who": "Chris Kearney",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "0428c9ac66e1",
+    "in_default_branch": true,
+    "lines": {
+     "added": 244,
+     "still": 244,
+     "share": 1.0,
+     "files": 8,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "drawer gestures",
+   "repo": "derekross/omamobile",
+   "pr": 237,
+   "sha": "fb28727b132ecd9ddcf5b8a908e6d978e7a6f492",
+   "url": "https://github.com/derekross/omamobile/pull/237",
+   "who": "Derek Ross",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "b2ab0d6bb578",
+    "in_default_branch": true,
+    "lines": {
+     "added": 388,
+     "still": 387,
+     "share": 0.997,
+     "files": 8,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "voice typing",
+   "repo": "derekross/omamobile",
+   "pr": 241,
+   "sha": "683da1e4b453db515739f1b6f1611794e50605f7",
+   "url": "https://github.com/derekross/omamobile/pull/241",
+   "who": "Derek Ross",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "b2ab0d6bb578",
+    "in_default_branch": true,
+    "lines": {
+     "added": 1825,
+     "still": 1790,
+     "share": 0.981,
+     "files": 24,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "second monitor",
+   "repo": "bjarneo/flux",
+   "pr": null,
+   "sha": "644a578fa63dfc6cfbc0e5dc2e610202d24813fd",
+   "url": "https://github.com/bjarneo/flux/commit/644a578fa63dfc6cfbc0e5dc2e610202d24813fd",
+   "who": "Bjarne Oeverli",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "82a202b320b9",
+    "in_default_branch": true,
+    "lines": {
+     "added": 498,
+     "still": 489,
+     "share": 0.982,
+     "files": 19,
+     "files_gone": 1
+    }
+   }
+  },
+  {
+   "says": "Game Vibes intro",
+   "repo": "omacom/omarchy",
+   "pr": 19367,
+   "sha": "b6440cfbd0d5806b7e4a361046148e4e600dcf29",
+   "url": "https://github.com/omacom/omarchy/pull/19367",
+   "who": "David Heinemeier Hansson",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "f989b43e91ab",
+    "in_default_branch": true,
+    "lines": {
+     "added": 220,
+     "still": 200,
+     "share": 0.909,
+     "files": 6,
+     "files_gone": 1
+    }
+   }
+  },
+  {
+   "says": "a game from its address",
+   "repo": "omacom/omarchy",
+   "pr": 19422,
+   "sha": "b4be9bb6480da7c803146e73ea78fc58a91f5dff",
+   "url": "https://github.com/omacom/omarchy/pull/19422",
+   "who": "David Heinemeier Hansson",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "f989b43e91ab",
+    "in_default_branch": true,
+    "lines": {
+     "added": 54,
+     "still": 54,
+     "share": 1.0,
+     "files": 4,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "Death Wish",
+   "repo": "omacom/omarchy",
+   "pr": 19366,
+   "sha": "95e5ba4d799f5c6ea238dbd44f739fb9c7a235ef",
+   "url": "https://github.com/omacom/omarchy/pull/19366",
+   "who": "David Heinemeier Hansson",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "f989b43e91ab",
+    "in_default_branch": true,
+    "lines": {
+     "added": 934,
+     "still": 928,
+     "share": 0.994,
+     "files": 2,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "icon sets",
+   "repo": "omacom/omarchy",
+   "pr": 18879,
+   "sha": "dc49cec0fd9b7bc882ac2bcf6fb6c000b16df003",
+   "url": "https://github.com/omacom/omarchy/pull/18879",
+   "who": "David Heinemeier Hansson",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "f989b43e91ab",
+    "in_default_branch": true,
+    "lines": {
+     "added": 1448,
+     "still": 1427,
+     "share": 0.985,
+     "files": 100,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "icon set pictures",
+   "repo": "omacom/omarchy",
+   "pr": 18976,
+   "sha": "1699ae775b8dc7ac8ef6582db444913e70485a6f",
+   "url": "https://github.com/omacom/omarchy/pull/18976",
+   "who": "David Heinemeier Hansson",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "f989b43e91ab",
+    "in_default_branch": true,
+    "lines": {
+     "added": 69,
+     "still": 69,
+     "share": 1.0,
+     "files": 3,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "sung tunes",
+   "repo": "omacom/flowtunes",
+   "pr": null,
+   "sha": "4cfb39c6f3bc0a2054c09a25aa4f1d2a1cdd4e25",
+   "url": "https://github.com/omacom/flowtunes/commit/4cfb39c6f3bc0a2054c09a25aa4f1d2a1cdd4e25",
+   "who": "David Heinemeier Hansson",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "83dc86f007a2",
+    "in_default_branch": true,
+    "lines": {
+     "added": 53,
+     "still": 38,
+     "share": 0.717,
+     "files": 5,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "change an image",
+   "repo": "omacom/fantasi",
+   "pr": null,
+   "sha": "da6de6a393fa1bce531b3b3d7c117de0a6b869b7",
+   "url": "https://github.com/omacom/fantasi/commit/da6de6a393fa1bce531b3b3d7c117de0a6b869b7",
+   "who": "David Heinemeier Hansson",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "f5a3feceb5a8",
+    "in_default_branch": true,
+    "lines": {
+     "added": 283,
+     "still": 215,
+     "share": 0.76,
+     "files": 12,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "the local models panel is gone",
+   "repo": "omacom/omarchy",
+   "pr": 19829,
+   "sha": "5117642ef86c4fea41794364797c7346e8c13f8b",
+   "url": "https://github.com/omacom/omarchy/pull/19829",
+   "who": "David Heinemeier Hansson",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "f989b43e91ab",
+    "in_default_branch": true,
+    "lines": {
+     "added": 388,
+     "still": 374,
+     "share": 0.964,
+     "files": 3,
+     "files_gone": 0
+    }
+   }
+  },
+  {
+   "says": "the local models panel, which was taken out",
+   "repo": "omacom/omarchy",
+   "pr": 19597,
+   "sha": "3127619ee84f21fc6667f36d2e38db35bee34510",
+   "url": "https://github.com/omacom/omarchy/pull/19597",
+   "who": "David Heinemeier Hansson",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "f989b43e91ab",
+    "in_default_branch": true,
+    "lines": {
+     "added": 1496,
+     "still": 278,
+     "share": 0.186,
+     "files": 16,
+     "files_gone": 1
+    }
+   },
+   "expect": "gone"
+  },
+  {
+   "says": "Slack theme sync, which was taken out",
+   "repo": "omacom/omarchy",
+   "pr": 17113,
+   "sha": "175e63b62dc3201866722e45ee9a60714cde16fa",
+   "url": "https://github.com/omacom/omarchy/pull/17113",
+   "who": "Adrian Rangel",
+   "read_by_hand": null,
+   "checked": {
+    "on": "2026-11-25",
+    "head": "f989b43e91ab",
+    "in_default_branch": true,
+    "lines": {
+     "added": 201,
+     "still": 0,
+     "share": 0.0,
+     "files": 11,
+     "files_gone": 8
+    }
+   },
+   "expect": "gone"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "id": "mac-m4-m5",
+ "title": "M4 and M5 Macs boot in developer builds",
+ "date": "2026-11-22",
+ "summary": "A merged installer change gives newer Macs a boot path. It is held to edge images and the developer catalog.",
+ "topics": [
+  {
+   "id": "mac",
+   "angle": "The newest Macs, and how far they have got."
+  },
+  {
+   "id": "peek",
+   "angle": "The Mac installer learns the M4."
+  }
+ ],
+ "claims": [
+  {
+   "text": "A merged change gives M4 and later Macs their own way to boot.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "pr"
+   ]
+  },
+  {
+   "text": "On a test build, an M4 Pro MacBook Pro came up with all 14 cores, Wi-Fi, Touch ID, camera, speakers and an external display.",
+   "who": "the change’s author, Scott Jones",
+   "status": "said",
+   "sources": [
+    "pr"
+   ]
+  },
+  {
+   "text": "An M5 MacBook Air boots, from an earlier version of the work.",
+   "who": "the change’s author, Scott Jones",
+   "status": "said",
+   "sources": [
+    "pr"
+   ]
+  },
+  {
+   "text": "The change reaches edge images and the developer catalog only.",
+   "who": "the change’s author, Scott Jones",
+   "status": "said",
+   "sources": [
+    "pr"
+   ]
+  },
+  {
+   "text": "The exact build that was merged had not been installed on hardware when the change was written up.",
+   "who": "the change’s author, Scott Jones",
+   "status": "said",
+   "sources": [
+    "pr"
+   ]
+  },
+  {
+   "text": "The change was merged on 22 November by Marcelo Alcantara and written by Scott Jones.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "pr"
+   ]
+  },
+  {
+   "text": "When the change was written up, no catalog could offer an M4 for an ordinary install.",
+   "who": "the change’s author, Scott Jones",
+   "status": "said",
+   "sources": [
+    "pr"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "pr",
+   "url": "https://github.com/omacom/omarchy-mac-installer/pull/238",
+   "publisher": "Omarchy’s Mac installer on GitHub",
+   "kind": "code",
+   "published": "2026-11-22",
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "A fresh install of the merged build on an M4",
+  "When stable will offer an M4"
+ ],
+ "would_change": "A catalog that offers an M4 to everyone."
+}

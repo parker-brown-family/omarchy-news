@@ -1,12 +1,16 @@
 {
  "id": "install-speed",
- "title": "Six-second installs, and 18 seconds on NVIDIA’s N1X",
- "date": "2026-11-16",
- "summary": "DHH posts a six-second install record on a Ryzen 7 9800X3D and 18 seconds on an N1X.",
+ "title": "The install race: 18 seconds, six, then 4.79",
+ "date": "2026-11-24",
+ "summary": "DHH posts an install under five seconds, with encryption on. The code says what the clock counts and where the time went.",
  "topics": [
   {
    "id": "next",
    "angle": "Speed as a headline."
+  },
+  {
+   "id": "peek",
+   "angle": "The seconds, and the code that removed them."
   }
  ],
  "claims": [
@@ -33,6 +37,88 @@
    "sources": [
     "n1x"
    ]
+  },
+  {
+   "text": "Omarchy can install in less than five seconds on an AMD 495 machine that Anush Elangovan gave DHH.",
+   "who": "DHH",
+   "status": "said",
+   "sources": [
+    "five"
+   ]
+  },
+  {
+   "text": "The installer screen in the photo reads: Installed Omarchy in 4.79s.",
+   "who": "the photo in DHH’s post",
+   "status": "read",
+   "sources": [
+    "five"
+   ]
+  },
+  {
+   "text": "The sub-five-second install had encryption on.",
+   "who": "DHH",
+   "status": "said",
+   "sources": [
+    "enc"
+   ]
+  },
+  {
+   "text": "The clock starts when the installer begins its first step, after the questions, and stops after its last, the factory snapshot.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "clock",
+    "steps"
+   ]
+  },
+  {
+   "text": "Starting from the stick, answering the questions and the restart are not on the clock.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "clock",
+    "steps"
+   ]
+  },
+  {
+   "text": "Preparing the machine’s package keys was 3.72 seconds of a 9.27-second install on a Framework 13, so that work now starts before the disk is written.",
+   "who": "the change’s author, DHH",
+   "status": "said",
+   "sources": [
+    "keys"
+   ]
+  },
+  {
+   "text": "The slow step that protects the disk password now overlaps with the setup that follows the disk write.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "overlap"
+   ]
+  },
+  {
+   "text": "A first try that set the password’s cost earlier chose a password 20 to 35 percent cheaper to attack, so it was left out.",
+   "who": "the change’s author, DHH",
+   "status": "said",
+   "sources": [
+    "derive"
+   ]
+  },
+  {
+   "text": "The six-second run was posted by washinkoko.",
+   "who": "the post DHH quoted",
+   "status": "read",
+   "sources": [
+    "six"
+   ]
+  },
+  {
+   "text": "On that change, the project’s automatic install test took 15.7 seconds on x86, 4.3 less than before, and 23 seconds on ARM, 2.8 more.",
+   "who": "the test posted on the change",
+   "status": "read",
+   "sources": [
+    "keys"
+   ]
   }
  ],
  "sources": [
@@ -51,11 +137,68 @@
    "kind": "primary",
    "published": "2026-11-15",
    "read": "2026-11-23"
+  },
+  {
+   "id": "five",
+   "url": "https://x.com/dhh/status/2125329682841391410",
+   "publisher": "DHH on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "enc",
+   "url": "https://x.com/dhh/status/2125472850660204602",
+   "publisher": "DHH on X",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "clock",
+   "url": "https://github.com/omacom/omarchy-iso/blob/quattro/configs/airootfs/usr/share/omarchy-iso/orchestrator/phases.py",
+   "publisher": "Omarchy’s installer on GitHub",
+   "kind": "code",
+   "published": null,
+   "read": "2026-11-25"
+  },
+  {
+   "id": "steps",
+   "url": "https://github.com/omacom/omarchy-iso/blob/quattro/configs/airootfs/usr/share/omarchy-iso/orchestrator/main.py",
+   "publisher": "Omarchy’s installer on GitHub",
+   "kind": "code",
+   "published": null,
+   "read": "2026-11-25"
+  },
+  {
+   "id": "keys",
+   "url": "https://github.com/omacom/omarchy-iso/pull/515",
+   "publisher": "Omarchy’s installer on GitHub",
+   "kind": "code",
+   "published": "2026-11-24",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "overlap",
+   "url": "https://github.com/omacom/omarchy-iso/pull/511",
+   "publisher": "Omarchy’s installer on GitHub",
+   "kind": "code",
+   "published": "2026-11-23",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "derive",
+   "url": "https://github.com/omacom/omarchy-iso/pull/490",
+   "publisher": "Omarchy’s installer on GitHub",
+   "kind": "code",
+   "published": "2026-11-21",
+   "read": "2026-11-25"
   }
  ],
  "to_find": [
-  "What the clock covers: start and stop",
-  "A measurement by someone else"
+  "A measurement by someone else of the 4.79-second build",
+  "Which release carries it",
+  "A source for how fast the hardware could go"
  ],
  "would_change": "An independent timing."
 }

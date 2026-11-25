@@ -1,0 +1,90 @@
+{
+ "id": "mac-m3-max",
+ "title": "M3 Max graphics are on by default in the kernel branch",
+ "date": "2026-11-10",
+ "summary": "Two merged changes switch on the display and graphics of M3 Max MacBook Pros, at 120 Hz.",
+ "topics": [
+  {
+   "id": "mac",
+   "angle": "One more chip with its graphics on."
+  },
+  {
+   "id": "peek",
+   "angle": "The M3 Max, and a longer sleep."
+  }
+ ],
+ "claims": [
+  {
+   "text": "The 16-inch M3 Max has its built-in display and graphics on by default, at 120 hertz.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "j516"
+   ]
+  },
+  {
+   "text": "The 14-inch model with the same chip got the same days earlier.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "j514"
+   ]
+  },
+  {
+   "text": "On that 16-inch Mac, external displays stay off for now.",
+   "who": "the change’s author, Scott Jones",
+   "status": "said",
+   "sources": [
+    "j516"
+   ]
+  },
+  {
+   "text": "Asleep, an M3 Pro went from about 2.6 watts to about 1.4.",
+   "who": "the change’s author, Eryk Wieliczko",
+   "status": "said",
+   "sources": [
+    "sleep"
+   ]
+  },
+  {
+   "text": "Daniel Lemky’s commits are the base of the 16-inch work, and Chris Kearney’s of the 14-inch work.",
+   "who": "the changes’ descriptions",
+   "status": "read",
+   "sources": [
+    "j516",
+    "j514"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "j516",
+   "url": "https://github.com/omacom/linux-aurora/pull/429",
+   "publisher": "Omarchy’s Mac kernel on GitHub",
+   "kind": "code",
+   "published": "2026-11-10",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "j514",
+   "url": "https://github.com/omacom/linux-aurora/pull/408",
+   "publisher": "Omarchy’s Mac kernel on GitHub",
+   "kind": "code",
+   "published": "2026-11-07",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "sleep",
+   "url": "https://github.com/omacom/linux-aurora/pull/274",
+   "publisher": "Omarchy’s Mac kernel on GitHub",
+   "kind": "code",
+   "published": "2026-10-30",
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "Which published kernel carries each",
+  "Someone using a 16-inch M3 Max day to day"
+ ],
+ "would_change": "A report of either Mac failing on the published kernel."
+}

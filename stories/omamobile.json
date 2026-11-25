@@ -1,0 +1,146 @@
+{
+ "id": "omamobile",
+ "title": "Omamobile: Omarchy on a Pixel phone, and not an official project",
+ "date": "2026-11-25",
+ "summary": "An independent project’s fourth release runs Omarchy on a Pixel 7 Pro with no Android underneath. It is a developer preview.",
+ "topics": [
+  {
+   "id": "next",
+   "angle": "A phone is one of the places."
+  },
+  {
+   "id": "peek",
+   "angle": "The phone people are building in the open."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Omamobile is an independent community project, not an official Omarchy project.",
+   "who": "the project",
+   "status": "read",
+   "sources": [
+    "notes"
+   ]
+  },
+  {
+   "text": "It was renamed because Omarchy’s author asked that it not be called Omarchy Mobile.",
+   "who": "the project",
+   "status": "said",
+   "sources": [
+    "notes"
+   ]
+  },
+  {
+   "text": "The release of 24 November is a developer preview for one phone, the Pixel 7 Pro.",
+   "who": "the project",
+   "status": "read",
+   "sources": [
+    "notes"
+   ]
+  },
+  {
+   "text": "It runs Omarchy’s own packages on a mainline Linux kernel, with no Android underneath.",
+   "who": "the project",
+   "status": "said",
+   "sources": [
+    "notes"
+   ]
+  },
+  {
+   "text": "Calls, texts and mobile data work on the one network tested so far.",
+   "who": "the project",
+   "status": "said",
+   "sources": [
+    "notes"
+   ]
+  },
+  {
+   "text": "Installing erases the phone’s data.",
+   "who": "the project",
+   "status": "said",
+   "sources": [
+    "notes"
+   ]
+  },
+  {
+   "text": "Voice typing runs on the phone, and what you say stays there.",
+   "who": "the change’s author, Derek Ross",
+   "status": "said",
+   "sources": [
+    "voice"
+   ]
+  },
+  {
+   "text": "The app drawer follows your finger up, and home pages settle in at most 250 milliseconds.",
+   "who": "the change’s author, Derek Ross",
+   "status": "said",
+   "sources": [
+    "drawer"
+   ]
+  },
+  {
+   "text": "Other phones are being brought up in the same repository, more Pixels and two OnePlus phones among them.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "devices"
+   ]
+  },
+  {
+   "text": "GitHub lists Derek Ross and W4HO-ham as its two largest contributors; W4HO-ham’s recent work is the Pixel 9a.",
+   "who": "our count",
+   "status": "counted",
+   "sources": [
+    "people",
+    "devices"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "notes",
+   "url": "https://github.com/derekross/omamobile/blob/main/docs/release-notes/2026.11.24.md",
+   "publisher": "Omamobile on GitHub",
+   "kind": "primary",
+   "published": "2026-11-25",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "voice",
+   "url": "https://github.com/derekross/omamobile/pull/241",
+   "publisher": "Omamobile on GitHub",
+   "kind": "code",
+   "published": "2026-10-31",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "drawer",
+   "url": "https://github.com/derekross/omamobile/pull/237",
+   "publisher": "Omamobile on GitHub",
+   "kind": "code",
+   "published": "2026-10-31",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "devices",
+   "url": "https://github.com/derekross/omamobile/blob/main/docs/DEVICES.md",
+   "publisher": "Omamobile on GitHub",
+   "kind": "code",
+   "published": "2026-11-24",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "people",
+   "url": "https://github.com/derekross/omamobile/graphs/contributors",
+   "publisher": "Omamobile on GitHub",
+   "kind": "code",
+   "published": null,
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "A second network tested",
+  "Someone using it as their only phone"
+ ],
+ "would_change": "A release for a second phone."
+}

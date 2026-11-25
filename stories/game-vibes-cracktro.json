@@ -1,0 +1,105 @@
+{
+ "id": "game-vibes-cracktro",
+ "title": "Game Vibes opens like a 16-bit demo",
+ "date": "2026-11-19",
+ "summary": "The games list is now an old-school demo scene intro, and a shared game installs from its address.",
+ "topics": [
+  {
+   "id": "next",
+   "angle": "Play as part of the system."
+  },
+  {
+   "id": "peek",
+   "angle": "The games list became a show."
+  }
+ ],
+ "claims": [
+  {
+   "text": "The list of games is now a 16-bit demo-scene intro on a CRT, in the theme’s colours.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "show"
+   ]
+  },
+  {
+   "text": "Fable 5.2 drew it.",
+   "who": "the change’s author, DHH",
+   "status": "said",
+   "sources": [
+    "show"
+   ]
+  },
+  {
+   "text": "Four games ship with it: Cards, Checkmate, Death Wish and Neon Swarm.",
+   "who": "our count in the code",
+   "status": "counted",
+   "sources": [
+    "tree"
+   ]
+  },
+  {
+   "text": "A game somebody shares installs from its git address, like a theme.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "share"
+   ]
+  },
+  {
+   "text": "Death Wish ships with a program that proves every room can be beaten.",
+   "who": "the change’s author, DHH",
+   "status": "said",
+   "sources": [
+    "death"
+   ]
+  },
+  {
+   "text": "No release is named for it.",
+   "who": "our reading",
+   "status": "read",
+   "sources": [
+    "show"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "show",
+   "url": "https://github.com/omacom/omarchy/pull/19367",
+   "publisher": "Omarchy on GitHub",
+   "kind": "code",
+   "published": "2026-11-19",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "share",
+   "url": "https://github.com/omacom/omarchy/pull/19422",
+   "publisher": "Omarchy on GitHub",
+   "kind": "code",
+   "published": "2026-11-19",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "death",
+   "url": "https://github.com/omacom/omarchy/pull/19366",
+   "publisher": "Omarchy on GitHub",
+   "kind": "code",
+   "published": "2026-11-19",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "tree",
+   "url": "https://github.com/omacom/omarchy/tree/quattro/default/games/vibes",
+   "publisher": "Omarchy on GitHub",
+   "kind": "code",
+   "published": null,
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "Which release carries it",
+  "A game somebody else shared this way"
+ ],
+ "would_change": "The release notes."
+}

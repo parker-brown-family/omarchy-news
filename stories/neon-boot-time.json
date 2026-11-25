@@ -11,6 +11,10 @@
   {
    "id": "next",
    "angle": "Speed headed for a coming release."
+  },
+  {
+   "id": "peek",
+   "angle": "Who is credited, in the post and in the commits."
   }
  ],
  "claims": [
@@ -29,6 +33,24 @@
    "sources": [
     "dhh"
    ]
+  },
+  {
+   "text": "DHH credits Gemini 4 Neon with the optimizations behind the sub-five-second install.",
+   "who": "DHH",
+   "status": "said",
+   "sources": [
+    "five"
+   ]
+  },
+  {
+   "text": "Of three install changes we read, none credits Gemini 4 Neon and one credits Claude Fable 5.2. A commit need not name every tool used.",
+   "who": "our reading",
+   "status": "counted",
+   "sources": [
+    "a",
+    "b",
+    "d"
+   ]
   }
  ],
  "sources": [
@@ -39,6 +61,38 @@
    "kind": "primary",
    "published": "2026-11-23",
    "read": "2026-11-23"
+  },
+  {
+   "id": "five",
+   "url": "https://x.com/dhh/status/2125329682841391410",
+   "publisher": "DHH on X",
+   "kind": "primary",
+   "published": "2026-11-24",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "a",
+   "url": "https://github.com/omacom/omarchy-iso/pull/490",
+   "publisher": "Omarchy’s installer on GitHub",
+   "kind": "code",
+   "published": "2026-11-21",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "b",
+   "url": "https://github.com/omacom/omarchy-iso/pull/511",
+   "publisher": "Omarchy’s installer on GitHub",
+   "kind": "code",
+   "published": "2026-11-23",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "d",
+   "url": "https://github.com/omacom/omarchy-iso/pull/515",
+   "publisher": "Omarchy’s installer on GitHub",
+   "kind": "code",
+   "published": "2026-11-24",
+   "read": "2026-11-25"
   }
  ],
  "to_find": [

@@ -1,0 +1,56 @@
+{
+ "id": "flux-second-screen",
+ "title": "Flux turns an Android phone or tablet into a second monitor",
+ "date": "2026-11-09",
+ "summary": "An independent project by Bjarne Øverli connects an Omarchy computer to a phone. A merged change adds a second screen you can touch.",
+ "topics": [
+  {
+   "id": "next",
+   "angle": "The phone you already have."
+  },
+  {
+   "id": "peek",
+   "angle": "The phone as a second screen."
+  }
+ ],
+ "claims": [
+  {
+   "text": "Flux, an independent project, can use an Android phone or tablet as a second monitor, with touch.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "pr"
+   ]
+  },
+  {
+   "text": "It can also play the computer’s sound on the phone.",
+   "who": "the code",
+   "status": "read",
+   "sources": [
+    "sound"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "pr",
+   "url": "https://github.com/bjarneo/flux/commit/644a578fa",
+   "publisher": "Flux on GitHub",
+   "kind": "code",
+   "published": "2026-11-09",
+   "read": "2026-11-25"
+  },
+  {
+   "id": "sound",
+   "url": "https://github.com/bjarneo/flux/commit/c1fa0dc21",
+   "publisher": "Flux on GitHub",
+   "kind": "code",
+   "published": "2026-11-09",
+   "read": "2026-11-25"
+  }
+ ],
+ "to_find": [
+  "The delay between the computer and the phone, measured"
+ ],
+ "would_change": "A measurement of the delay."
+}
