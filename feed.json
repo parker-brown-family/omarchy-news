@@ -121,10 +121,232 @@
      "Research: Claude, checked against the code",
      "Film: Cinema Delight"
     ]
+   },
+   {
+    "id": "evening-november-26",
+    "title": "Omarchy Evening · 26 November 2026",
+    "sealed": "2026-11-26",
+    "seconds": 177,
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "file": "omarchy-stories-evening-november-26-curved-16x9.mp4",
+    "bytes": 202806404,
+    "sha256": "8910bd4b407d1ad7a39a494f6c78a03c7bb6a0a556116347ac1c216994ca5cb0",
+    "url": "https://github.com/parker-brown-family/omarchy-news/releases/download/film-evening-november-26/omarchy-stories-evening-november-26-curved-16x9.mp4",
+    "release": "https://github.com/parker-brown-family/omarchy-news/releases/tag/film-evening-november-26",
+    "poster": "posters/evening-november-26.jpg",
+    "stories": [
+     "tom-ipad-mini-4"
+    ],
+    "credits": [
+     "Tom Ballard's posts and photos; Omarchy A by Henrik Klee and OrchardLinux",
+     "Posts and pictures: DHH, Emir Beganović, Jankees, and the day's new installers",
+     "Music: Sanctuary, parkerbrowndev",
+     "Wallpaper: Gruvbox theme, Omarchy",
+     "Film: Cinema Delight"
+    ]
    }
   ]
  },
  "items": [
+  {
+   "id": "tom-ipad-mini-4",
+   "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/tom-ipad-mini-4.json",
+   "title": "Tom Ballard's iPad Mini 4: a month from a rut to Omarchy A",
+   "content_text": "Tom Ballard, who writes Today in Omarchy, spent a month of commutes getting Omarchy onto an 11-year-old iPad Mini 4, with help from Henrik Klee's Orchard tools. On 26 November he posted that Omarchy A runs on it.",
+   "date_published": "2026-11-26T00:00:00Z",
+   "tags": [
+    "next",
+    "mac"
+   ],
+   "_omarchy_news": {
+    "story": "https://raw.githubusercontent.com/parker-brown-family/omarchy-news/main/stories/tom-ipad-mini-4.json",
+    "angles": [
+     {
+      "id": "next",
+      "angle": "How far people will carry it: a device Apple calls unsupportable."
+     },
+     {
+      "id": "mac",
+      "angle": "Apple hardware beyond the Mac."
+     }
+    ],
+    "claims": [
+     {
+      "text": "On 24 October Tom said he was in a rut trying to get Omarchy running on the iPad Mini 4.",
+      "who": "Tom Ballard",
+      "status": "said",
+      "sources": [
+       "rut"
+      ]
+     },
+     {
+      "text": "On 26 October, on a three hour morning commute, the iPad booted native Linux over one USB cable, into RAM, with the internal storage untouched.",
+      "who": "Tom Ballard",
+      "status": "said",
+      "sources": [
+       "commute"
+      ]
+     },
+     {
+      "text": "Tom thanked Henrik Klee for helping with Henrik's Orchard command line tool.",
+      "who": "Tom Ballard",
+      "status": "said",
+      "sources": [
+       "commute"
+      ]
+     },
+     {
+      "text": "By 30 October the iPad, 11 years old, played Tom's Omarchy snake video at 60 fps.",
+      "who": "Tom Ballard",
+      "status": "said",
+      "sources": [
+       "snake"
+      ]
+     },
+     {
+      "text": "On 2 November Tom posted that Omarchy ran on the iPad Mini 4.",
+      "who": "Tom Ballard",
+      "status": "said",
+      "sources": [
+       "didit"
+      ]
+     },
+     {
+      "text": "On 4 November it booted Omarchy in 12 seconds with no failed services, and touch was accurate to about 1 mm.",
+      "who": "Tom Ballard",
+      "status": "said",
+      "sources": [
+       "twelve"
+      ]
+     },
+     {
+      "text": "Tom took a weekend off and wrote: turns out I can leave the laptop shut.",
+      "who": "Tom Ballard",
+      "status": "said",
+      "sources": [
+       "weekend"
+      ]
+     },
+     {
+      "text": "On 16 November he was back to the GPU work on the commute.",
+      "who": "Tom Ballard",
+      "status": "said",
+      "sources": [
+       "grind"
+      ]
+     },
+     {
+      "text": "On 26 November Omarchy A ran on the iPad Mini 4. Tom credits Henrik Klee and the community, and wrote that Apple decided it was unsupportable hardware.",
+      "who": "Tom Ballard",
+      "status": "said",
+      "sources": [
+       "today"
+      ]
+     },
+     {
+      "text": "Omarchy A describes itself as an experimental, Omarchy-inspired desktop for Apple A-series devices, built on Arch Linux ARM and reworked for touch.",
+      "who": "the Omarchy A README",
+      "status": "read",
+      "sources": [
+       "repo"
+      ]
+     },
+     {
+      "text": "The Omarchy A README lists iPad Air 2, iPad 5 to 7 and iPhone 7 to X as compatible; the iPad Mini 4 is not on that list.",
+      "who": "the Omarchy A README",
+      "status": "read",
+      "sources": [
+       "repo"
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "id": "rut",
+      "url": "https://x.com/tcballard/status/2113971285575524799",
+      "publisher": "Tom Ballard on X",
+      "kind": "primary",
+      "published": "2026-10-24",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "commute",
+      "url": "https://x.com/tcballard/status/2114620020864995804",
+      "publisher": "Tom Ballard on X",
+      "kind": "primary",
+      "published": "2026-10-26",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "snake",
+      "url": "https://x.com/tcballard/status/2116316484775334318",
+      "publisher": "Tom Ballard on X",
+      "kind": "primary",
+      "published": "2026-10-30",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "didit",
+      "url": "https://x.com/tcballard/status/2117149447465455878",
+      "publisher": "Tom Ballard on X",
+      "kind": "primary",
+      "published": "2026-11-02",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "twelve",
+      "url": "https://x.com/tcballard/status/2118108586190524473",
+      "publisher": "Tom Ballard on X",
+      "kind": "primary",
+      "published": "2026-11-04",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "weekend",
+      "url": "https://x.com/tcballard/status/2122034567078887689",
+      "publisher": "Tom Ballard on X",
+      "kind": "primary",
+      "published": "2026-11-15",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "grind",
+      "url": "https://x.com/tcballard/status/2122400444823798063",
+      "publisher": "Tom Ballard on X",
+      "kind": "primary",
+      "published": "2026-11-16",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "today",
+      "url": "https://x.com/tcballard/status/2126043382938038679",
+      "publisher": "Tom Ballard on X",
+      "kind": "primary",
+      "published": "2026-11-26",
+      "read": "2026-11-26"
+     },
+     {
+      "id": "repo",
+      "url": "https://github.com/OrchardLinux/omarchy-a",
+      "publisher": "Omarchy A (OrchardLinux)",
+      "kind": "code",
+      "published": null,
+      "read": "2026-11-26"
+     }
+    ],
+    "to_find": [
+     "What on the iPad Mini 4 still does not work under Omarchy A",
+     "Whether Tom's iPad Mini 4 work is merged into Orchard"
+    ],
+    "would_change": "Tom's or Henrik's own account of what is merged and what remains.",
+    "issue": "https://github.com/parker-brown-family/omarchy-news/issues/40",
+    "videos": [
+     "https://github.com/parker-brown-family/omarchy-news/releases/download/film-evening-november-26/omarchy-stories-evening-november-26-curved-16x9.mp4"
+    ]
+   }
+  },
   {
    "id": "omamobile",
    "url": "https://github.com/parker-brown-family/omarchy-news/blob/main/stories/omamobile.json",

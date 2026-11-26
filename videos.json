@@ -82,5 +82,30 @@
    "Research: Claude, checked against the code",
    "Film: Cinema Delight"
   ]
+ },
+ {
+  "id": "evening-november-26",
+  "title": "Omarchy Evening · 26 November 2026",
+  "sealed": "2026-11-26",
+  "seconds": 177,
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "file": "omarchy-stories-evening-november-26-curved-16x9.mp4",
+  "bytes": 202806404,
+  "sha256": "8910bd4b407d1ad7a39a494f6c78a03c7bb6a0a556116347ac1c216994ca5cb0",
+  "url": "https://github.com/parker-brown-family/omarchy-news/releases/download/film-evening-november-26/omarchy-stories-evening-november-26-curved-16x9.mp4",
+  "release": "https://github.com/parker-brown-family/omarchy-news/releases/tag/film-evening-november-26",
+  "poster": "posters/evening-november-26.jpg",
+  "stories": [
+   "tom-ipad-mini-4"
+  ],
+  "credits": [
+   "Tom Ballard's posts and photos; Omarchy A by Henrik Klee and OrchardLinux",
+   "Posts and pictures: DHH, Emir Beganović, Jankees, and the day's new installers",
+   "Music: Sanctuary, parkerbrowndev",
+   "Wallpaper: Gruvbox theme, Omarchy",
+   "Film: Cinema Delight"
+  ]
  }
 ]

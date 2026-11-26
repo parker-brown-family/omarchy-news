@@ -17,6 +17,10 @@ Each claim carries one of four marks: `read` (we read the document), `counted` (
 <!-- news -->
 ## Videos
 
+[![Omarchy Evening · 26 November 2026](posters/evening-november-26.jpg)](https://github.com/parker-brown-family/omarchy-news/releases/tag/film-evening-november-26)
+
+**[Omarchy Evening · 26 November 2026](https://github.com/parker-brown-family/omarchy-news/releases/tag/film-evening-november-26)** · 2:57 · sealed 2026-11-26 · Tom Ballard's posts and photos; Omarchy A by Henrik Klee and OrchardLinux; Posts and pictures: DHH, Emir Beganović, Jankees, and the day's new installers; Music: Sanctuary, parkerbrowndev; Wallpaper: Gruvbox theme, Omarchy; Film: Cinema Delight
+
 [![Omarchy News · Peek Behind the Curtain, edition one](posters/peek-1.jpg)](https://github.com/parker-brown-family/omarchy-news/releases/tag/film-peek-1)
 
 **[Omarchy News · Peek Behind the Curtain, edition one](https://github.com/parker-brown-family/omarchy-news/releases/tag/film-peek-1)** · 2:40 · sealed 2026-11-25 · Theme Retro 82: Omarchy; Music: Ghibli × Ancient Hero, parkerbrowndev; Narration: Kokoro-82M, af_heart; Script: Writers Block; Research: Claude, checked against the code; Film: Cinema Delight
@@ -70,6 +74,7 @@ Who is paying for Omarchy, in what, and what does it buy? Film: planned, second.
 
 Who brought Linux to the Mac, and who carries it on? Film: planned, third.
 
+- **[Tom Ballard's iPad Mini 4: a month from a rut to Omarchy A](stories/tom-ipad-mini-4.json)** (2026-11-26). Apple hardware beyond the Mac. · [open questions](https://github.com/parker-brown-family/omarchy-news/issues/40)
 - **[Asahi’s credit in four Aurora repositories](stories/aurora-credit-trail.json)** (2026-11-23). Where the credit can be seen. · [open questions](https://github.com/parker-brown-family/omarchy-news/issues/22)
 - **[M4 and M5 Macs boot in developer builds](stories/mac-m4-m5.json)** (2026-11-22). The newest Macs, and how far they have got. · [open questions](https://github.com/parker-brown-family/omarchy-news/issues/37)
 - **[A jailbroken iPad boots Omarchy A](stories/ipad-omarchy-a.json)** (2026-11-21). Apple hardware beyond the Mac. · [open questions](https://github.com/parker-brown-family/omarchy-news/issues/19)
@@ -85,6 +90,7 @@ Who brought Linux to the Mac, and who carries it on? Film: planned, third.
 
 Where does Omarchy run next? Film: held for the 4.6 release.
 
+- **[Tom Ballard's iPad Mini 4: a month from a rut to Omarchy A](stories/tom-ipad-mini-4.json)** (2026-11-26). How far people will carry it: a device Apple calls unsupportable. · [open questions](https://github.com/parker-brown-family/omarchy-news/issues/40)
 - **[Omamobile: Omarchy on a Pixel phone, and not an official project](stories/omamobile.json)** (2026-11-25). A phone is one of the places. · [open questions](https://github.com/parker-brown-family/omarchy-news/issues/38)
 - **[The install race: 18 seconds, six, then 4.79](stories/install-speed.json)** (2026-11-24). Speed as a headline. · [open questions](https://github.com/parker-brown-family/omarchy-news/issues/12)
 - **[DHH says Gemini 4 Neon halved Omarchy’s boot time](stories/neon-boot-time.json)** (2026-11-23). Speed headed for a coming release. · [open questions](https://github.com/parker-brown-family/omarchy-news/issues/24)
