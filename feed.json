@@ -34,7 +34,7 @@
     "id": "peek",
     "title": "Peek Behind the Curtain",
     "question": "What is being built in Omarchy this week?",
-    "film": "weekly, on Wednesdays"
+    "film": "edition one sealed 2026-11-25; weekly, on Wednesdays"
    }
   ],
   "videos": [
@@ -85,6 +85,40 @@
      "Theme Ethereal: Omarchy",
      "Music: parkerbrowndev",
      "Narration: Kokoro-82M, af_heart",
+     "Film: Cinema Delight"
+    ]
+   },
+   {
+    "id": "peek-1",
+    "title": "Omarchy News · Peek Behind the Curtain, edition one",
+    "sealed": "2026-11-25",
+    "seconds": 160,
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "file": "omarchy-stories-omarchy-news-peek-curved-16x9.mp4",
+    "bytes": 199910149,
+    "sha256": "0e366a24db1977f57d01785126a928dd3625f7c4b9661e5609502a164c5f17d0",
+    "url": "https://github.com/parker-brown-family/omarchy-news/releases/download/film-peek-1/omarchy-stories-omarchy-news-peek-curved-16x9.mp4",
+    "release": "https://github.com/parker-brown-family/omarchy-news/releases/tag/film-peek-1",
+    "poster": "posters/peek-1.jpg",
+    "stories": [
+     "install-speed",
+     "neon-boot-time",
+     "mac-m4-m5",
+     "mac-m3-max",
+     "omamobile",
+     "flux-second-screen",
+     "game-vibes-cracktro",
+     "icon-sets-and-local-music",
+     "local-ai"
+    ],
+    "credits": [
+     "Theme Retro 82: Omarchy",
+     "Music: Ghibli × Ancient Hero, parkerbrowndev",
+     "Narration: Kokoro-82M, af_heart",
+     "Script: Writers Block",
+     "Research: Claude, checked against the code",
      "Film: Cinema Delight"
     ]
    }
@@ -244,7 +278,9 @@
     ],
     "would_change": "A release for a second phone.",
     "issue": "https://github.com/parker-brown-family/omarchy-news/issues/38",
-    "videos": []
+    "videos": [
+     "https://github.com/parker-brown-family/omarchy-news/releases/download/film-peek-1/omarchy-stories-omarchy-news-peek-curved-16x9.mp4"
+    ]
    }
   },
   {
@@ -458,7 +494,9 @@
     ],
     "would_change": "An independent timing.",
     "issue": "https://github.com/parker-brown-family/omarchy-news/issues/12",
-    "videos": []
+    "videos": [
+     "https://github.com/parker-brown-family/omarchy-news/releases/download/film-peek-1/omarchy-stories-omarchy-news-peek-curved-16x9.mp4"
+    ]
    }
   },
   {
@@ -574,7 +612,8 @@
     "would_change": "A before-and-after measurement that is not close to half.",
     "issue": "https://github.com/parker-brown-family/omarchy-news/issues/24",
     "videos": [
-     "https://github.com/parker-brown-family/omarchy-news/releases/download/film-who-gets-to-use-ai/omarchy-stories-omarchy-news-ai-curved-16x9.mp4"
+     "https://github.com/parker-brown-family/omarchy-news/releases/download/film-who-gets-to-use-ai/omarchy-stories-omarchy-news-ai-curved-16x9.mp4",
+     "https://github.com/parker-brown-family/omarchy-news/releases/download/film-peek-1/omarchy-stories-omarchy-news-peek-curved-16x9.mp4"
     ]
    }
   },
@@ -712,7 +751,9 @@
     ],
     "would_change": "The release notes.",
     "issue": "https://github.com/parker-brown-family/omarchy-news/issues/20",
-    "videos": []
+    "videos": [
+     "https://github.com/parker-brown-family/omarchy-news/releases/download/film-peek-1/omarchy-stories-omarchy-news-peek-curved-16x9.mp4"
+    ]
    }
   },
   {
@@ -1123,7 +1164,9 @@
     ],
     "would_change": "A catalog that offers an M4 to everyone.",
     "issue": "https://github.com/parker-brown-family/omarchy-news/issues/37",
-    "videos": []
+    "videos": [
+     "https://github.com/parker-brown-family/omarchy-news/releases/download/film-peek-1/omarchy-stories-omarchy-news-peek-curved-16x9.mp4"
+    ]
    }
   },
   {
@@ -1281,7 +1324,9 @@
     ],
     "would_change": "The release notes.",
     "issue": "https://github.com/parker-brown-family/omarchy-news/issues/36",
-    "videos": []
+    "videos": [
+     "https://github.com/parker-brown-family/omarchy-news/releases/download/film-peek-1/omarchy-stories-omarchy-news-peek-curved-16x9.mp4"
+    ]
    }
   },
   {
@@ -1885,7 +1930,9 @@
     ],
     "would_change": "The release notes.",
     "issue": "https://github.com/parker-brown-family/omarchy-news/issues/35",
-    "videos": []
+    "videos": [
+     "https://github.com/parker-brown-family/omarchy-news/releases/download/film-peek-1/omarchy-stories-omarchy-news-peek-curved-16x9.mp4"
+    ]
    }
   },
   {
@@ -2133,7 +2180,9 @@
     ],
     "would_change": "A report of either Mac failing on the published kernel.",
     "issue": "https://github.com/parker-brown-family/omarchy-news/issues/34",
-    "videos": []
+    "videos": [
+     "https://github.com/parker-brown-family/omarchy-news/releases/download/film-peek-1/omarchy-stories-omarchy-news-peek-curved-16x9.mp4"
+    ]
    }
   },
   {
@@ -2199,7 +2248,9 @@
     ],
     "would_change": "A measurement of the delay.",
     "issue": "https://github.com/parker-brown-family/omarchy-news/issues/33",
-    "videos": []
+    "videos": [
+     "https://github.com/parker-brown-family/omarchy-news/releases/download/film-peek-1/omarchy-stories-omarchy-news-peek-curved-16x9.mp4"
+    ]
    }
   },
   {

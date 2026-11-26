@@ -17,6 +17,10 @@ Each claim carries one of four marks: `read` (we read the document), `counted` (
 <!-- news -->
 ## Videos
 
+[![Omarchy News · Peek Behind the Curtain, edition one](posters/peek-1.jpg)](https://github.com/parker-brown-family/omarchy-news/releases/tag/film-peek-1)
+
+**[Omarchy News · Peek Behind the Curtain, edition one](https://github.com/parker-brown-family/omarchy-news/releases/tag/film-peek-1)** · 2:40 · sealed 2026-11-25 · Theme Retro 82: Omarchy; Music: Ghibli × Ancient Hero, parkerbrowndev; Narration: Kokoro-82M, af_heart; Script: Writers Block; Research: Claude, checked against the code; Film: Cinema Delight
+
 [![Omarchy Combattttt · the plugin contest](posters/plugin-contest-2.jpg)](https://github.com/parker-brown-family/omarchy-news/releases/tag/film-plugin-contest-2)
 
 **[Omarchy Combattttt · the plugin contest](https://github.com/parker-brown-family/omarchy-news/releases/tag/film-plugin-contest-2)** · 1:48 · sealed 2026-11-23 · Themes Demon and Shades of Jade: HANCORE; Music: Hero Hype 1, parkerbrowndev; Film: Cinema Delight
@@ -101,7 +105,7 @@ Where does Omarchy run next? Film: held for the 4.6 release.
 
 ## Peek Behind the Curtain
 
-What is being built in Omarchy this week? Film: weekly, on Wednesdays.
+What is being built in Omarchy this week? Film: edition one sealed 2026-11-25; weekly, on Wednesdays.
 
 - **[Omamobile: Omarchy on a Pixel phone, and not an official project](stories/omamobile.json)** (2026-11-25). The phone people are building in the open. · [open questions](https://github.com/parker-brown-family/omarchy-news/issues/38)
 - **[The install race: 18 seconds, six, then 4.79](stories/install-speed.json)** (2026-11-24). The seconds, and the code that removed them. · [open questions](https://github.com/parker-brown-family/omarchy-news/issues/12)
